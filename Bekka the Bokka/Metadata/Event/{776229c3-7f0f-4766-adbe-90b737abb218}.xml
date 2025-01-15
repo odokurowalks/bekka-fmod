@@ -108,6 +108,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{888d8a9a-d76b-414b-9273-3d32a73097d4}" />
 	<object class="SingleSound" id="{0db3f5a5-ab73-402c-b624-9c4b34215e98}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
@@ -116,6 +119,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{588151aa-f195-4486-bdb5-4e0c6aeaa476}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>1</value>
 		</property>
@@ -127,6 +133,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{3c96aad8-a56d-4134-9907-4a7edc646916}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>2</value>
 		</property>
@@ -138,6 +147,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{515b518d-0a99-479c-9b71-9348b6207171}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>3</value>
 		</property>
@@ -149,6 +161,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{0608cdaa-f61b-414d-90ef-5dd2761bb2b1}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>4</value>
 		</property>
