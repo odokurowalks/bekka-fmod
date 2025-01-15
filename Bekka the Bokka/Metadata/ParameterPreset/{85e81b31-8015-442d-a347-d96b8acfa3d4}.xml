@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{85e81b31-8015-442d-a347-d96b8acfa3d4}">
+		<property name="name">
+			<value>AmbienceLevel</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a72af6c0-e29a-4f86-8511-1ded6f2e4f82}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cdffc3a2-9c38-449f-b49d-f18f4bc1a45b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cdffc3a2-9c38-449f-b49d-f18f4bc1a45b}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>LoWind</value>
+			<value>HiWind</value>
+			<value>Rain</value>
+			<value>LoSnow</value>
+			<value>HiSnow</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
