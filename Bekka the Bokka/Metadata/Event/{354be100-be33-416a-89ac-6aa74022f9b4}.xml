@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{354be100-be33-416a-89ac-6aa74022f9b4}">
 		<property name="name">
-			<value>PlaySwipe</value>
+			<value>ui_swipe</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -56,7 +56,7 @@
 			<destination>{7322623b-367f-4a6f-bb37-9704572e45ce}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ed90c63f-cb8e-4599-b95e-3355f4d16478}</destination>
+			<destination>{0f4db560-dbd5-491d-a293-623ad815625b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{f6ee8ce6-c3b0-4f8b-8467-f9db3b7d1246}" />

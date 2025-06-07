@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{062867cc-d528-4dec-9b1d-fa713317dc97}">
 		<property name="name">
-			<value>PlayFallOffMap</value>
+			<value>FallOffMap</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -56,7 +56,7 @@
 			<destination>{8212f915-e158-48a4-b398-77fa22e112df}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ed90c63f-cb8e-4599-b95e-3355f4d16478}</destination>
+			<destination>{230ec452-8d80-449a-b230-b09c38d12425}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{f3c3710f-e842-4231-b6fd-cfc5093f596f}" />
@@ -101,8 +101,8 @@
 	<object class="MixerBusPanner" id="{70df8abb-4a22-46e7-9245-f13be267564c}" />
 	<object class="SingleSound" id="{e7408afd-28f9-410b-83c7-ce264680cef7}">
 		<relationship name="modulators">
-			<destination>{b35b14e2-1479-4fc5-b0fa-cfb7b09a76b1}</destination>
 			<destination>{60b311cb-90b5-4901-b773-0352d66b52ec}</destination>
+			<destination>{b35b14e2-1479-4fc5-b0fa-cfb7b09a76b1}</destination>
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{462e8793-f92a-46a2-af4e-dee19c237ca4}</destination>
@@ -110,20 +110,20 @@
 	</object>
 	<object class="MixerBusFader" id="{bf28b8b1-b42d-46b1-8364-002ad0e893c3}" />
 	<object class="MixerBusFader" id="{f3402129-82f6-431a-b008-2870517be295}" />
-	<object class="RandomizerModulator" id="{b35b14e2-1479-4fc5-b0fa-cfb7b09a76b1}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>pitch</value>
-		</property>
-		<property name="amount">
-			<value>10.416666</value>
-		</property>
-	</object>
 	<object class="RandomizerModulator" id="{60b311cb-90b5-4901-b773-0352d66b52ec}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>startOffset</value>
 		</property>
 		<property name="amount">
 			<value>5</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{b35b14e2-1479-4fc5-b0fa-cfb7b09a76b1}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>10.416666</value>
 		</property>
 	</object>
 </objects>

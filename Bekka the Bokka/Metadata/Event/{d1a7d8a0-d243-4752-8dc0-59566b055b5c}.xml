@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d1a7d8a0-d243-4752-8dc0-59566b055b5c}">
 		<property name="name">
-			<value>PlayStaminaReady</value>
+			<value>StaminaReady</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -56,7 +56,7 @@
 			<destination>{d0db19d1-5c75-4e38-b935-e0a572692269}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ed90c63f-cb8e-4599-b95e-3355f4d16478}</destination>
+			<destination>{230ec452-8d80-449a-b230-b09c38d12425}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{e41bfff0-6c33-48e6-80ce-8a90e6361347}" />

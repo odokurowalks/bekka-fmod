@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d5910a38-11bb-4ba1-b4ec-1eb46b59d252}">
 		<property name="name">
-			<value>PlayPenClick</value>
+			<value>ui_penclick</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -56,7 +56,7 @@
 			<destination>{7c92bea1-f9aa-4a60-a6a6-fc7fa291d2dd}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ed90c63f-cb8e-4599-b95e-3355f4d16478}</destination>
+			<destination>{0f4db560-dbd5-491d-a293-623ad815625b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{2d62b8b4-c499-4e6b-8940-a6663de21268}" />

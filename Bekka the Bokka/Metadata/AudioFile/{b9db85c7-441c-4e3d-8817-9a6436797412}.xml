@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{b9db85c7-441c-4e3d-8817-9a6436797412}">
 		<property name="assetPath">
 			<value>PlayerMoveSFX/Climb4.aif</value>

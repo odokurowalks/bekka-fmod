@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{97a3933f-0bb5-4728-a499-24360680d4e0}">
 		<property name="assetPath">
 			<value>PlayerMoveSFX/StepDirt4.aif</value>

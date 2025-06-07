@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{ac9c6788-cdcb-4192-8da7-4fed884a6a33}">
 		<property name="assetPath">
 			<value>UIInteractSFX/PauseClick.aif</value>

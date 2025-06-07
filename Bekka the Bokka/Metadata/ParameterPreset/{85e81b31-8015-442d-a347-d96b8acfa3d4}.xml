@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{85e81b31-8015-442d-a347-d96b8acfa3d4}">
 		<property name="name">
 			<value>AmbienceLevel</value>

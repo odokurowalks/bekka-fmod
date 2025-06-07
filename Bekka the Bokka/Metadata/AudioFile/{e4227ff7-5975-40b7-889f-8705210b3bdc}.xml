@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{e4227ff7-5975-40b7-889f-8705210b3bdc}">
 		<property name="assetPath">
 			<value>UIInteractSFX/MenuPress.aif</value>

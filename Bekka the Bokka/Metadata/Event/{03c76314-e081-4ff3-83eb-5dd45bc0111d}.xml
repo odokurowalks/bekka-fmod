@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{03c76314-e081-4ff3-83eb-5dd45bc0111d}">
 		<property name="name">
-			<value>PlayLevelComplete</value>
+			<value>LevelComplete</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -56,7 +56,7 @@
 			<destination>{b1571ce6-1bb4-45c3-9756-a4d444edb19c}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ed90c63f-cb8e-4599-b95e-3355f4d16478}</destination>
+			<destination>{230ec452-8d80-449a-b230-b09c38d12425}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{2271c1d6-8e7b-4d5d-942e-1ed0cbedd733}" />

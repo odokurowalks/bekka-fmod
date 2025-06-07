@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f3d85034-d327-4e40-b546-0722dad6190b}">
 		<property name="name">
-			<value>ObjectCollision</value>
+			<value>objectcollision</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{56a1eb98-a624-4aa0-abd0-d9ecac7d28d4}</destination>
+			<destination>{054fb0cc-aad9-47cf-ac28-f538e47497c4}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{4daa7534-372b-492e-8ae2-659a4ffc8123}</destination>
@@ -58,7 +58,7 @@
 			<destination>{7a8d090b-2035-472d-b1e4-f276ddb983b9}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ed90c63f-cb8e-4599-b95e-3355f4d16478}</destination>
+			<destination>{f55e23d2-1694-4a82-b3a2-e9c5d56b51cd}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{e4b05c7d-24b1-408a-861d-4db838d5330b}" />

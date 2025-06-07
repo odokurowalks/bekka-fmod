@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{247dd43b-2b45-4cbd-9f24-99caa3cafd07}">
 		<property name="assetPath">
 			<value>Music/Mystery/m01_MysteryLoop_Dbmin_75bpm_68.aif</value>

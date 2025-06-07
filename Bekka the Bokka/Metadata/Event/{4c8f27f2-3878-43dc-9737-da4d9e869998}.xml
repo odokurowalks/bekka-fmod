@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{4c8f27f2-3878-43dc-9737-da4d9e869998}">
 		<property name="name">
-			<value>PlayerJump</value>
+			<value>jump</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{145391b9-46d0-48be-b5b8-677d8cc74f2e}</destination>
+			<destination>{c9fba96e-720f-408a-a701-3eda1914327f}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{c2d072cc-935f-40f7-9ab0-d02b85d183b6}</destination>
@@ -56,7 +56,7 @@
 			<destination>{f5a0bfa3-f38f-4b1e-9cbf-98be22e032de}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ed90c63f-cb8e-4599-b95e-3355f4d16478}</destination>
+			<destination>{29426884-e195-4a1b-83a8-78e9d4971e6b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{76a0d9bf-01ca-4576-8c5b-77ebead07eb9}" />

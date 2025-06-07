@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{46ee58f8-126e-411f-916e-707f950b91b2}">
 		<property name="name">
-			<value>PlayObjectClick</value>
+			<value>ui_objectclick</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -56,7 +56,7 @@
 			<destination>{39c202ff-75fb-4aa2-b87d-b12d355cdb59}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ed90c63f-cb8e-4599-b95e-3355f4d16478}</destination>
+			<destination>{0f4db560-dbd5-491d-a293-623ad815625b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{1ab92bc8-96e9-43b9-83e4-1fd55766d862}" />

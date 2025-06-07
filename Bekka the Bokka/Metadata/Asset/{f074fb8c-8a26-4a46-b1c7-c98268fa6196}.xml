@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="EncodableAsset" id="{f074fb8c-8a26-4a46-b1c7-c98268fa6196}">
 		<property name="assetPath">
 			<value>PlayerMoveSFX/</value>

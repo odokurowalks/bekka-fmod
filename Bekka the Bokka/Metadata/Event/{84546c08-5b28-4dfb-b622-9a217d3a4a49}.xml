@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{84546c08-5b28-4dfb-b622-9a217d3a4a49}">
 		<property name="name">
-			<value>PlaySettleCountdown</value>
+			<value>SettleCountdown</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -55,7 +55,7 @@
 			<destination>{c714ddf1-ce30-4e8a-aa5f-58cd027ee700}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ed90c63f-cb8e-4599-b95e-3355f4d16478}</destination>
+			<destination>{230ec452-8d80-449a-b230-b09c38d12425}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{301a4835-3baa-4312-a728-5b0667fd849b}" />
@@ -86,8 +86,8 @@
 	</object>
 	<object class="Timeline" id="{dae530ee-b771-431b-998e-4089addf9160}">
 		<relationship name="modules">
-			<destination>{32704c99-1f4a-46c0-896d-c61703167d7e}</destination>
 			<destination>{855c3315-8cfd-465f-926c-deffbf5d4a7d}</destination>
+			<destination>{32704c99-1f4a-46c0-896d-c61703167d7e}</destination>
 			<destination>{8a51486d-4adc-409d-9ae8-c7a2e26ddcc3}</destination>
 		</relationship>
 	</object>

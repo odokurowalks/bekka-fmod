@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{cca0018c-0590-40cc-95c9-8f7612b1ed7d}">
 		<property name="assetPath">
 			<value>Music/NPC/npcl02_NPC_B_110bpm_44.aif</value>

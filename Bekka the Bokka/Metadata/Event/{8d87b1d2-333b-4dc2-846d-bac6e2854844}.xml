@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{8d87b1d2-333b-4dc2-846d-bac6e2854844}">
 		<property name="name">
-			<value>PlayMainMenu</value>
+			<value>MainMenu</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -54,7 +54,7 @@
 			<destination>{952f180a-6e84-4b77-9777-3bca052d9813}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ed90c63f-cb8e-4599-b95e-3355f4d16478}</destination>
+			<destination>{a01e7057-22f5-4cb2-b497-b03fd28adb5a}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3a32eaf4-621e-4405-84da-c13d1c026961}" />

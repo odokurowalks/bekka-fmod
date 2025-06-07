@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{525f4853-e4d9-44a0-a116-c7cc860c03b8}">
 		<property name="assetPath">
 			<value>ObjectCollision/Cloth3.aif</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{402354e5-97a0-43fa-8042-42cc004b535f}">
 		<property name="assetPath">
 			<value>PlayerMoveSFX/StepSnow2.aif</value>

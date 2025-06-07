@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="EncodableAsset" id="{f8b3cdbd-d6af-441b-b353-635bc5e8368b}">
 		<property name="assetPath">
 			<value>UIInteractSFX/</value>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c228208d-69d6-4923-9b01-097ff2547aa8}">
 		<property name="name">
-			<value>PlayMystery</value>
+			<value>Mystery</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -59,7 +59,7 @@
 			<destination>{7a79d96a-ac54-44b5-bb7b-e4c3635d4203}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ed90c63f-cb8e-4599-b95e-3355f4d16478}</destination>
+			<destination>{a01e7057-22f5-4cb2-b497-b03fd28adb5a}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{9deedfde-6564-4c8a-959f-6c78966ff9f2}" />
@@ -115,10 +115,10 @@
 	</object>
 	<object class="ParameterProxy" id="{413ad278-63d1-481c-8066-e45ddc5ddccf}">
 		<relationship name="modules">
+			<destination>{86be53f9-cf23-4fce-b400-457286e461db}</destination>
 			<destination>{b50386e1-effb-42eb-9fa0-b754a9bc929b}</destination>
 			<destination>{727ad9d5-d847-4ca6-b809-538167d98901}</destination>
 			<destination>{69649c04-360b-4a6b-8d9f-6a3a6558442b}</destination>
-			<destination>{86be53f9-cf23-4fce-b400-457286e461db}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{61ff4d18-1296-4104-8158-630d70c55ddf}</destination>
@@ -353,8 +353,8 @@
 			<destination>{61ff4d18-1296-4104-8158-630d70c55ddf}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{37d14b9a-5435-4f17-9741-b63eb3cbea06}</destination>
 			<destination>{592bb49f-d0a9-4b5f-ad75-ef9318610196}</destination>
+			<destination>{37d14b9a-5435-4f17-9741-b63eb3cbea06}</destination>
 			<destination>{3f3b7436-749a-456d-959c-fc5ba6da1958}</destination>
 			<destination>{d0d63bfc-f313-43f5-970b-2b4f129e7faf}</destination>
 			<destination>{0f28789a-48b9-4c2e-b067-9167fc31d0d5}</destination>
@@ -367,12 +367,12 @@
 			<destination>{61ff4d18-1296-4104-8158-630d70c55ddf}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{17fed00c-74d1-464d-9473-20fce2feec2d}</destination>
-			<destination>{213079ab-0bdf-4ba5-9b6b-b73fbc973b0d}</destination>
 			<destination>{48a05deb-5e0b-4da4-b63c-131c5c6fec90}</destination>
-			<destination>{02db196b-d029-42ae-b1e6-a26f93119897}</destination>
-			<destination>{9834e85d-d294-44c7-9966-d6f5c616b535}</destination>
+			<destination>{213079ab-0bdf-4ba5-9b6b-b73fbc973b0d}</destination>
 			<destination>{bf35653d-fe34-4c7d-ac49-00f0a08148a1}</destination>
+			<destination>{9834e85d-d294-44c7-9966-d6f5c616b535}</destination>
+			<destination>{17fed00c-74d1-464d-9473-20fce2feec2d}</destination>
+			<destination>{02db196b-d029-42ae-b1e6-a26f93119897}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{17754c04-2f6e-4d30-a44d-38879894f717}" />
@@ -417,6 +417,14 @@
 			<value>-1</value>
 		</property>
 	</object>
+	<object class="AutomationPoint" id="{592bb49f-d0a9-4b5f-ad75-ef9318610196}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{37d14b9a-5435-4f17-9741-b63eb3cbea06}">
 		<property name="position">
 			<value>0.59999999999999998</value>
@@ -426,14 +434,6 @@
 		</property>
 		<property name="curveShape">
 			<value>1</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{592bb49f-d0a9-4b5f-ad75-ef9318610196}">
-		<property name="position">
-			<value>1</value>
-		</property>
-		<property name="value">
-			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{3f3b7436-749a-456d-959c-fc5ba6da1958}">
@@ -477,15 +477,12 @@
 			<value>-1</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{17fed00c-74d1-464d-9473-20fce2feec2d}">
+	<object class="AutomationPoint" id="{48a05deb-5e0b-4da4-b63c-131c5c6fec90}">
 		<property name="position">
-			<value>1.6000000000000001</value>
+			<value>2.9999999999999964</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
-		</property>
-		<property name="curveShape">
-			<value>1</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{213079ab-0bdf-4ba5-9b6b-b73fbc973b0d}">
@@ -496,23 +493,15 @@
 			<value>0</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{48a05deb-5e0b-4da4-b63c-131c5c6fec90}">
+	<object class="AutomationPoint" id="{bf35653d-fe34-4c7d-ac49-00f0a08148a1}">
 		<property name="position">
-			<value>2.9999999999999964</value>
+			<value>2.8000000119209263</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{02db196b-d029-42ae-b1e6-a26f93119897}">
-		<property name="position">
-			<value>2.5999999999999979</value>
-		</property>
-		<property name="value">
-			<value>3.81469727e-06</value>
+			<value>-10</value>
 		</property>
 		<property name="curveShape">
-			<value>1</value>
+			<value>-1</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{9834e85d-d294-44c7-9966-d6f5c616b535}">
@@ -526,15 +515,26 @@
 			<value>-1</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{bf35653d-fe34-4c7d-ac49-00f0a08148a1}">
+	<object class="AutomationPoint" id="{17fed00c-74d1-464d-9473-20fce2feec2d}">
 		<property name="position">
-			<value>2.8000000119209263</value>
+			<value>1.6000000000000001</value>
 		</property>
 		<property name="value">
-			<value>-10</value>
+			<value>-80</value>
 		</property>
 		<property name="curveShape">
-			<value>-1</value>
+			<value>1</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{02db196b-d029-42ae-b1e6-a26f93119897}">
+		<property name="position">
+			<value>2.5999999999999979</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+		<property name="curveShape">
+			<value>1</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{69faa25f-6da0-4f34-a238-7bcb26f4d398}">

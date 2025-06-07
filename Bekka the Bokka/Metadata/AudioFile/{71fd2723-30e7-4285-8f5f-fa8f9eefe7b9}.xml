@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{71fd2723-30e7-4285-8f5f-fa8f9eefe7b9}">
 		<property name="assetPath">
 			<value>Ambiences/AmbienceWind.aif</value>

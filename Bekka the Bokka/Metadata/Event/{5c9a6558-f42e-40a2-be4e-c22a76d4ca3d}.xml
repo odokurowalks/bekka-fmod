@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5c9a6558-f42e-40a2-be4e-c22a76d4ca3d}">
 		<property name="name">
-			<value>PlayerLanding</value>
+			<value>landing</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{145391b9-46d0-48be-b5b8-677d8cc74f2e}</destination>
+			<destination>{c9fba96e-720f-408a-a701-3eda1914327f}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{9acdfacf-b3a4-4ed8-9de0-f48f2db819c9}</destination>
@@ -56,7 +56,7 @@
 			<destination>{4df52ef6-320c-4f70-af7e-717de60b36de}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ed90c63f-cb8e-4599-b95e-3355f4d16478}</destination>
+			<destination>{29426884-e195-4a1b-83a8-78e9d4971e6b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{73413c03-f121-45c1-9658-346f46488c4e}" />

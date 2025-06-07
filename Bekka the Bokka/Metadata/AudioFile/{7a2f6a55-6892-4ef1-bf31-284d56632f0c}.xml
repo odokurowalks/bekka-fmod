@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{7a2f6a55-6892-4ef1-bf31-284d56632f0c}">
 		<property name="assetPath">
 			<value>Music/Summit/s03_SummitLoop_Ab_85bpm_44.aif</value>
