@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{3ca8e141-612d-430f-a0fc-bb0b71f0245f}">
+		<property name="name">
+			<value>UI_Action</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a72af6c0-e29a-4f86-8511-1ded6f2e4f82}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6a2d4f9c-69ec-4107-a5c2-90951149f26e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6a2d4f9c-69ec-4107-a5c2-90951149f26e}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Hover</value>
+			<value>Select_Generic</value>
+			<value>Select_Inventory</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

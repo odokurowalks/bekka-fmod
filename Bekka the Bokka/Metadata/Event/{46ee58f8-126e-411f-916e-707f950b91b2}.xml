@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{46ee58f8-126e-411f-916e-707f950b91b2}">
 		<property name="name">
-			<value>ui_objectclick</value>
+			<value>objectclick</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
