@@ -4,6 +4,9 @@
 		<property name="builtBanksOutputDirectory">
 			<value>../../Bool/Assets/FMOD/Builds</value>
 		</property>
+		<property name="builtBanksSeparateAssets">
+			<value>true</value>
+		</property>
 		<relationship name="masterEventFolder">
 			<destination>{56a1eb98-a624-4aa0-abd0-d9ecac7d28d4}</destination>
 		</relationship>
