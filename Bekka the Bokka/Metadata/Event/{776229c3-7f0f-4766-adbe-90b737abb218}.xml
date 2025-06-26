@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{776229c3-7f0f-4766-adbe-90b737abb218}">
 		<property name="name">
-			<value>weather</value>
+			<value>ambience_controller</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -67,7 +67,7 @@
 			<destination>{0608cdaa-f61b-414d-90ef-5dd2761bb2b1}</destination>
 			<destination>{3c96aad8-a56d-4134-9907-4a7edc646916}</destination>
 			<destination>{515b518d-0a99-479c-9b71-9348b6207171}</destination>
-			<destination>{0db3f5a5-ab73-402c-b624-9c4b34215e98}</destination>
+			<destination>{8420659d-7ad5-4e9c-aafc-f7297570c724}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d20b376e-00b9-4a53-92b3-83602705acea}</destination>
@@ -84,7 +84,7 @@
 			<destination>{0608cdaa-f61b-414d-90ef-5dd2761bb2b1}</destination>
 			<destination>{3c96aad8-a56d-4134-9907-4a7edc646916}</destination>
 			<destination>{515b518d-0a99-479c-9b71-9348b6207171}</destination>
-			<destination>{0db3f5a5-ab73-402c-b624-9c4b34215e98}</destination>
+			<destination>{8420659d-7ad5-4e9c-aafc-f7297570c724}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{cdffc3a2-9c38-449f-b49d-f18f4bc1a45b}</destination>
@@ -163,15 +163,12 @@
 			<destination>{44927cb9-7549-45a3-81be-2afd0388c4b3}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{0db3f5a5-ab73-402c-b624-9c4b34215e98}">
+	<object class="EventSound" id="{8420659d-7ad5-4e9c-aafc-f7297570c724}">
 		<property name="isCutoff">
 			<value>true</value>
 		</property>
-		<property name="looping">
-			<value>true</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{71fd2723-30e7-4285-8f5f-fa8f9eefe7b9}</destination>
+		<relationship name="event">
+			<destination>{9c03660c-3fe3-466d-b6c1-88c48cf3b37c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d20b376e-00b9-4a53-92b3-83602705acea}">

@@ -19,7 +19,7 @@
 			<value>5</value>
 		</property>
 		<property name="enumerationLabels">
-			<value>LoWind</value>
+			<value>trail_low</value>
 			<value>HiWind</value>
 			<value>Rain</value>
 			<value>LoSnow</value>
