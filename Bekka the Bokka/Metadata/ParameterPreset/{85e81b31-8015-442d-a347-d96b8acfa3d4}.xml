@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{85e81b31-8015-442d-a347-d96b8acfa3d4}">
 		<property name="name">
-			<value>AmbienceLevel</value>
+			<value>currentAmbience</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a72af6c0-e29a-4f86-8511-1ded6f2e4f82}</destination>
@@ -16,10 +16,11 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>5</value>
+			<value>6</value>
 		</property>
 		<property name="enumerationLabels">
 			<value>trail_low</value>
+			<value>camp</value>
 			<value>HiWind</value>
 			<value>Rain</value>
 			<value>LoSnow</value>
