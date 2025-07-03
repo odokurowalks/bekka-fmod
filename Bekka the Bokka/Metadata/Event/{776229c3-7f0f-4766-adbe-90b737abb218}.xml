@@ -69,6 +69,7 @@
 			<destination>{515b518d-0a99-479c-9b71-9348b6207171}</destination>
 			<destination>{8420659d-7ad5-4e9c-aafc-f7297570c724}</destination>
 			<destination>{535ed1c4-d321-445a-8bff-a55e208a65b1}</destination>
+			<destination>{6ccfcbca-a99d-41c1-bce5-f06839973d4d}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d20b376e-00b9-4a53-92b3-83602705acea}</destination>
@@ -87,6 +88,7 @@
 			<destination>{515b518d-0a99-479c-9b71-9348b6207171}</destination>
 			<destination>{8420659d-7ad5-4e9c-aafc-f7297570c724}</destination>
 			<destination>{535ed1c4-d321-445a-8bff-a55e208a65b1}</destination>
+			<destination>{6ccfcbca-a99d-41c1-bce5-f06839973d4d}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{cdffc3a2-9c38-449f-b49d-f18f4bc1a45b}</destination>
@@ -114,7 +116,7 @@
 			<value>true</value>
 		</property>
 		<property name="start">
-			<value>2</value>
+			<value>3</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -128,7 +130,7 @@
 			<value>true</value>
 		</property>
 		<property name="start">
-			<value>5</value>
+			<value>6</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -142,7 +144,7 @@
 			<value>true</value>
 		</property>
 		<property name="start">
-			<value>3</value>
+			<value>4</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -156,7 +158,7 @@
 			<value>true</value>
 		</property>
 		<property name="start">
-			<value>4</value>
+			<value>5</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -177,11 +179,25 @@
 		</relationship>
 	</object>
 	<object class="EventSound" id="{535ed1c4-d321-445a-8bff-a55e208a65b1}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>1</value>
 		</property>
 		<relationship name="event">
 			<destination>{f9fa9e5e-9579-411a-9e01-aa444decbfc0}</destination>
+		</relationship>
+	</object>
+	<object class="EventSound" id="{6ccfcbca-a99d-41c1-bce5-f06839973d4d}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="start">
+			<value>2</value>
+		</property>
+		<relationship name="event">
+			<destination>{16cccb98-21e1-433c-b86d-22e896ec9146}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d20b376e-00b9-4a53-92b3-83602705acea}">

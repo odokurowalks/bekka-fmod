@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{44b07a3c-6c22-4809-9feb-4baacb3c96ab}">
 		<property name="name">
-			<value>equip_trinket</value>
+			<value>place</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{496d365f-2691-49a9-b231-261865b60f94}</destination>
+			<destination>{527c5b1b-e2d5-4518-9dbb-177c5c0391a2}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{6fa10abf-bb90-4c1d-a808-516e1cf51b54}</destination>
