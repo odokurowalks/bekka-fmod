@@ -36,7 +36,7 @@
 	<object class="MixerBusFader" id="{869ea646-a93b-498f-9793-36f702e0f4e9}" />
 	<object class="MixerSend" id="{0f176fab-19ba-4313-85cb-7502b352ffad}">
 		<property name="inputFormat">
-			<value>1</value>
+			<value>5</value>
 		</property>
 		<relationship name="mixerReturn">
 			<destination>{b7375447-055e-45ed-8918-ab132d52390f}</destination>
