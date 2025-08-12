@@ -16,12 +16,23 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>3</value>
+			<value>14</value>
 		</property>
 		<property name="enumerationLabels">
 			<value>Hover</value>
-			<value>Select_Generic</value>
-			<value>Select_Inventory</value>
+			<value>Confirm</value>
+			<value>PlayGame</value>
+			<value>BuyItem</value>
+			<value>CannotBuy</value>
+			<value>SellItem</value>
+			<value>JournalPage</value>
+			<value>InventoryGet</value>
+			<value>SupplyGet</value>
+			<value>SupplyGetAll</value>
+			<value>SupplyClose</value>
+			<value>ResetLevel</value>
+			<value>BackToCamp</value>
+			<value>DialogueNext</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
