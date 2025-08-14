@@ -35,7 +35,7 @@
 			<value>DialogueNext</value>
 		</property>
 		<property name="initialValue">
-			<value>0</value>
+			<value>8</value>
 		</property>
 	</object>
 </objects>
