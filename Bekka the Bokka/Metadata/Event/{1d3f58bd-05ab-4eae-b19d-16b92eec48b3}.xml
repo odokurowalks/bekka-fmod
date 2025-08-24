@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{1d3f58bd-05ab-4eae-b19d-16b92eec48b3}">
 		<property name="name">
-			<value>camp</value>
+			<value>camp_ambient</value>
 		</property>
 		<property name="outputFormat">
 			<value>5</value>

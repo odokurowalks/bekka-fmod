@@ -5,7 +5,7 @@
 			<value>play</value>
 		</property>
 		<property name="outputFormat">
-			<value>5</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8e20aa95-ce32-4b25-b8a6-c6efa8e30177}</destination>
@@ -66,7 +66,7 @@
 			<destination>{d8b8d2b6-88a7-4d85-a3a9-5e5e20d20195}</destination>
 			<destination>{5fcb8ff8-5a9b-4d96-b4cc-415bee0ee790}</destination>
 			<destination>{9ddeffc4-370a-410d-bb30-408c82098d7a}</destination>
-			<destination>{a4032853-9fe7-43f6-ae69-7a1ae26f5dc4}</destination>
+			<destination>{b6e915b4-9d19-4e65-bc60-70ec2ad8b4d8}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{49c41f03-76dd-4a50-ba31-e8efab53dc38}</destination>
@@ -82,7 +82,7 @@
 			<destination>{d8b8d2b6-88a7-4d85-a3a9-5e5e20d20195}</destination>
 			<destination>{5fcb8ff8-5a9b-4d96-b4cc-415bee0ee790}</destination>
 			<destination>{9ddeffc4-370a-410d-bb30-408c82098d7a}</destination>
-			<destination>{a4032853-9fe7-43f6-ae69-7a1ae26f5dc4}</destination>
+			<destination>{b6e915b4-9d19-4e65-bc60-70ec2ad8b4d8}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{a8aefc2f-021f-4510-a8a1-1a9910d3a4e3}</destination>
@@ -135,15 +135,12 @@
 			<destination>{c228208d-69d6-4923-9b01-097ff2547aa8}</destination>
 		</relationship>
 	</object>
-	<object class="EventSound" id="{a4032853-9fe7-43f6-ae69-7a1ae26f5dc4}">
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
+	<object class="EventSound" id="{b6e915b4-9d19-4e65-bc60-70ec2ad8b4d8}">
 		<property name="start">
 			<value>1</value>
 		</property>
 		<relationship name="event">
-			<destination>{1d3f58bd-05ab-4eae-b19d-16b92eec48b3}</destination>
+			<destination>{6f0f7bcc-914c-415a-b1c6-d288c92df145}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{49c41f03-76dd-4a50-ba31-e8efab53dc38}">
