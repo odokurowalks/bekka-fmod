@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="ParameterPreset" id="{17cf5571-1235-45fa-a446-1445e2d51219}">
+	<object class="ParameterPreset" id="{ae484f6f-c7c5-4b74-bb9b-1bfabb4be833}">
 		<property name="name">
-			<value>Surface</value>
+			<value>campState</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a72af6c0-e29a-4f86-8511-1ded6f2e4f82}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{376a83f3-617e-47c2-bcc3-43fdf2061778}</destination>
+			<destination>{560e5c24-a4d9-4969-b11d-2b70fb4436b6}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{376a83f3-617e-47c2-bcc3-43fdf2061778}">
+	<object class="GameParameter" id="{560e5c24-a4d9-4969-b11d-2b70fb4436b6}">
 		<property name="parameterType">
 			<value>2</value>
 		</property>
@@ -19,18 +19,12 @@
 			<value>3</value>
 		</property>
 		<property name="enumerationLabels">
-			<value>Dirt</value>
-			<value>Snow</value>
-			<value>Wood</value>
-		</property>
-		<property name="isGlobal">
-			<value>true</value>
+			<value>default</value>
+			<value>milestoneA</value>
+			<value>milestoneB</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
-		</property>
-		<property name="isExposedRecursively">
-			<value>false</value>
 		</property>
 	</object>
 </objects>

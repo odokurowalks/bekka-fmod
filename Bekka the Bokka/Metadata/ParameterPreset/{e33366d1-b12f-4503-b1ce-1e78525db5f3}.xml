@@ -5,7 +5,7 @@
 			<value>MovementType</value>
 		</property>
 		<relationship name="folder">
-			<destination>{a72af6c0-e29a-4f86-8511-1ded6f2e4f82}</destination>
+			<destination>{4d63a83f-a5a0-4787-91ce-db189978bde2}</destination>
 		</relationship>
 		<relationship name="parameter">
 			<destination>{4dd37e5c-51a5-4c04-b348-c2ce89b4b33d}</destination>

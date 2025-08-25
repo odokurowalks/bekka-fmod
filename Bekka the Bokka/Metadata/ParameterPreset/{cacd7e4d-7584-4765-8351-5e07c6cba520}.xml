@@ -5,7 +5,7 @@
 			<value>Game Pause</value>
 		</property>
 		<relationship name="folder">
-			<destination>{a72af6c0-e29a-4f86-8511-1ded6f2e4f82}</destination>
+			<destination>{9673a7a1-3fe6-4ae8-b458-6a96d577ae64}</destination>
 		</relationship>
 		<relationship name="parameter">
 			<destination>{b7eb2d1a-d48f-4526-978e-5b9c2e57607c}</destination>
