@@ -72,7 +72,7 @@
 			<destination>{ab1ca9c3-3957-4e09-b203-bef1bd4a6271}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ed90c63f-cb8e-4599-b95e-3355f4d16478}</destination>
+			<destination>{a01e7057-22f5-4cb2-b497-b03fd28adb5a}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{5de3423c-89d7-49d3-b7f9-d0a4949bc5d4}" />
@@ -1258,7 +1258,7 @@
 			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{b04b09a6-6998-41c2-921a-8ba44c1df66f}</destination>
