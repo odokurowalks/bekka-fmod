@@ -73,14 +73,14 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # FMOD caches
-.Bekka the Bokka/.cache/
+Bekka the Bokka/.cache/
+Bekka the Bokka/.cache/**
 
-# FMOD builds / exports
-Build/
-Exports/
+# FMOD temp build files
+*.fobj
+*.pdc
 
-# macOS system files
+# macOS / Windows system files
 *.DS_Store
-
-# Windows system files
+**/.DS_Store
 Thumbs.db
