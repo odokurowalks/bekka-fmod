@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="ParameterPreset" id="{3ca8e141-612d-430f-a0fc-bb0b71f0245f}">
+	<object class="ParameterPreset" id="{71949e52-5ee6-4235-a70c-cb530b18b00c}">
 		<property name="name">
 			<value>UI_Action</value>
 		</property>
 		<relationship name="folder">
-			<destination>{a72af6c0-e29a-4f86-8511-1ded6f2e4f82}</destination>
+			<destination>{9673a7a1-3fe6-4ae8-b458-6a96d577ae64}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{6a2d4f9c-69ec-4107-a5c2-90951149f26e}</destination>
+			<destination>{cb39d143-5cf2-48da-820b-1dd7c3ef257a}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{6a2d4f9c-69ec-4107-a5c2-90951149f26e}">
+	<object class="GameParameter" id="{cb39d143-5cf2-48da-820b-1dd7c3ef257a}">
 		<property name="parameterType">
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>14</value>
+			<value>15</value>
 		</property>
 		<property name="enumerationLabels">
 			<value>Hover</value>
@@ -33,6 +33,7 @@
 			<value>ResetLevel</value>
 			<value>BackToCamp</value>
 			<value>DialogueNext</value>
+			<value>None</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>

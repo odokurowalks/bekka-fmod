@@ -5,7 +5,7 @@
 			<value>waterfall</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f68dfe13-f7f7-4729-a6ef-8d603180c38f}</destination>
@@ -88,6 +88,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{9c6506d3-1db3-43e1-8b18-e5c560bdb943}">
+		<property name="volume">
+			<value>-15</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{99fe028f-37b6-4915-9778-b798af8096f8}</destination>
 		</relationship>
@@ -173,6 +176,7 @@
 	<object class="MixerBusEffectChain" id="{99fe028f-37b6-4915-9778-b798af8096f8}">
 		<relationship name="effects">
 			<destination>{6a3cb347-241c-4084-9e1e-5f4c4c800ab8}</destination>
+			<destination>{f929fffa-9997-4499-9014-91b89d7c0547}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{eb913072-350a-4310-82c1-6fd4a0d3ce53}" />
@@ -199,6 +203,20 @@
 	</object>
 	<object class="MixerBusPanner" id="{9b355ddd-cc23-431f-abee-07c15ea7bc66}" />
 	<object class="MixerBusFader" id="{6a3cb347-241c-4084-9e1e-5f4c4c800ab8}" />
+	<object class="SpatialiserEffect" id="{f929fffa-9997-4499-9014-91b89d7c0547}">
+		<property name="maximumDistance">
+			<value>35</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>10</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{73a839ff-5ebe-4e35-8f15-33b49afe492f}" />
 	<object class="AutomationCurve" id="{772ba755-f8ae-450a-8253-cd3c98f8ccd3}">
 		<relationship name="parameter">

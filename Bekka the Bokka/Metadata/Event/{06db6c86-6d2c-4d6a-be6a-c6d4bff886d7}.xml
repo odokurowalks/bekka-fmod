@@ -96,6 +96,7 @@
 			<value>2</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
+<<<<<<< Updated upstream
 			<value>250</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
@@ -103,6 +104,15 @@
 		</property>
 		<property name="spawnRate">
 			<value>80</value>
+=======
+			<value>91.5</value>
+		</property>
+		<property name="maximumTimeBetweenSounds">
+			<value>450</value>
+		</property>
+		<property name="spawnRate">
+			<value>90</value>
+>>>>>>> Stashed changes
 		</property>
 		<property name="maximumScatterDistance">
 			<value>8</value>
@@ -112,9 +122,12 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{553bd536-2183-4764-9fc4-9a7a27d47797}">
+<<<<<<< Updated upstream
 		<property name="volume">
 			<value>-17.5</value>
 		</property>
+=======
+>>>>>>> Stashed changes
 		<property name="name">
 			<value>Audio 1</value>
 		</property>

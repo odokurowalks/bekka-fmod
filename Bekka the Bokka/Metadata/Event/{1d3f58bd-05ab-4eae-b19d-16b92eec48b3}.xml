@@ -2,7 +2,11 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{1d3f58bd-05ab-4eae-b19d-16b92eec48b3}">
 		<property name="name">
+<<<<<<< Updated upstream
 			<value>camp_ambient</value>
+=======
+			<value>camp</value>
+>>>>>>> Stashed changes
 		</property>
 		<property name="outputFormat">
 			<value>5</value>
@@ -31,7 +35,10 @@
 			<destination>{b28b3675-a025-4ace-b635-7116309e909c}</destination>
 			<destination>{3e8d14db-4d7f-4ae0-9b44-7850eea7111c}</destination>
 			<destination>{993d39b9-3755-4dae-a69e-dd001acfd8dc}</destination>
+<<<<<<< Updated upstream
 			<destination>{400e9bd1-04a2-4f42-b354-7fedf654aa66}</destination>
+=======
+>>>>>>> Stashed changes
 		</relationship>
 		<relationship name="timeline">
 			<destination>{7fa2fe16-e799-460b-b940-5ca45aa3e9c8}</destination>
@@ -108,6 +115,7 @@
 			<destination>{6132faf5-ab2f-4739-b41e-b9790f6b3807}</destination>
 		</relationship>
 	</object>
+<<<<<<< Updated upstream
 	<object class="GroupTrack" id="{400e9bd1-04a2-4f42-b354-7fedf654aa66}">
 		<relationship name="modules">
 			<destination>{9468a2d3-f09c-4f93-8c78-d83edbcb6ba3}</destination>
@@ -119,14 +127,19 @@
 			<destination>{3885c73b-299c-4019-8f60-3470ef06d06e}</destination>
 		</relationship>
 	</object>
+=======
+>>>>>>> Stashed changes
 	<object class="Timeline" id="{7fa2fe16-e799-460b-b940-5ca45aa3e9c8}">
 		<relationship name="modules">
 			<destination>{0c2dacd5-5347-4ff4-9f9a-f975fc11a2e3}</destination>
 			<destination>{cdf8e722-e93c-47ab-8a8c-ad8c6d8bde17}</destination>
 			<destination>{98761a7b-bff5-421c-96d8-1c4f5b889ec7}</destination>
 			<destination>{e78a9fd6-8c77-498d-8ba8-f5bd957d705c}</destination>
+<<<<<<< Updated upstream
 			<destination>{ed256ba0-cc05-4f70-9f7c-2f3245055f5c}</destination>
 			<destination>{144764ec-e661-4f67-b433-a89c91983a9f}</destination>
+=======
+>>>>>>> Stashed changes
 		</relationship>
 		<relationship name="markers">
 			<destination>{dca74251-1692-4d5c-ba0d-f5a7c39e144f}</destination>
@@ -211,9 +224,12 @@
 		<property name="length">
 			<value>63.158276643990931</value>
 		</property>
+<<<<<<< Updated upstream
 		<relationship name="triggerConditions">
 			<destination>{ad2db88b-b87b-4249-a7c2-d504fcddb985}</destination>
 		</relationship>
+=======
+>>>>>>> Stashed changes
 		<relationship name="audioFile">
 			<destination>{fcd02f39-ed02-4cb1-b4cf-e2f8f40c01b2}</destination>
 		</relationship>
@@ -269,7 +285,11 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
+<<<<<<< Updated upstream
 			<value>59.5</value>
+=======
+			<value>69.5</value>
+>>>>>>> Stashed changes
 		</property>
 		<property name="length">
 			<value>48.300181405895692</value>
@@ -303,10 +323,17 @@
 			<value>9</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
+<<<<<<< Updated upstream
 			<value>88</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
 			<value>2500</value>
+=======
+			<value>84</value>
+		</property>
+		<property name="maximumTimeBetweenSounds">
+			<value>1500</value>
+>>>>>>> Stashed changes
 		</property>
 		<property name="spawnQuantizationInterval">
 			<value>5</value>
@@ -341,9 +368,12 @@
 		</property>
 	</object>
 	<object class="EventMixerGroup" id="{6132faf5-ab2f-4739-b41e-b9790f6b3807}">
+<<<<<<< Updated upstream
 		<property name="volume">
 			<value>2</value>
 		</property>
+=======
+>>>>>>> Stashed changes
 		<property name="name">
 			<value>Plink</value>
 		</property>
@@ -357,6 +387,7 @@
 			<destination>{2ca5dd59-1c8d-46b8-9b21-364abe6e85b7}</destination>
 		</relationship>
 	</object>
+<<<<<<< Updated upstream
 	<object class="TransitionSourceSound" id="{9468a2d3-f09c-4f93-8c78-d83edbcb6ba3}">
 		<property name="length">
 			<value>0</value>
@@ -415,6 +446,8 @@
 			<destination>{2ca5dd59-1c8d-46b8-9b21-364abe6e85b7}</destination>
 		</relationship>
 	</object>
+=======
+>>>>>>> Stashed changes
 	<object class="TempoMarker" id="{dca74251-1692-4d5c-ba0d-f5a7c39e144f}">
 		<property name="position">
 			<value>0</value>
@@ -467,6 +500,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f7a9572f-6033-4771-b3fa-7621e2f5b67f}" />
+<<<<<<< Updated upstream
 	<object class="ParameterCondition" id="{ad2db88b-b87b-4249-a7c2-d504fcddb985}">
 		<property name="minimum">
 			<value>2</value>
@@ -478,6 +512,8 @@
 			<destination>{b04b09a6-6998-41c2-921a-8ba44c1df66f}</destination>
 		</relationship>
 	</object>
+=======
+>>>>>>> Stashed changes
 	<object class="TransitionSourceFadeOutCurve" id="{f064a170-f467-4d67-b133-10371a72c31d}">
 		<relationship name="startPoint">
 			<destination>{c1294080-424d-4d41-94fc-c0fa8c2d15ad}</destination>
@@ -522,6 +558,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ccf43ada-776c-4d77-977a-3d5f37e444d9}" />
+<<<<<<< Updated upstream
 	<object class="ParameterCondition" id="{986d4cae-4864-44fd-949d-fe63f85dc8d9}">
 		<property name="minimum">
 			<value>4</value>
@@ -539,6 +576,8 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{85c88817-075a-45e8-8912-214386b732cd}" />
+=======
+>>>>>>> Stashed changes
 	<object class="TransitionTimeline" id="{c6042a56-0b02-44f6-aced-cf780dcdf183}">
 		<property name="length">
 			<value>2.1818124999999999</value>
@@ -554,8 +593,11 @@
 			<destination>{c0274af4-0707-403f-8d54-da1cefea3d32}</destination>
 			<destination>{500df37e-9f25-401e-aa45-297ea4bb4d69}</destination>
 			<destination>{c5be655b-5bb0-48c0-9607-513ba7e5016e}</destination>
+<<<<<<< Updated upstream
 			<destination>{9468a2d3-f09c-4f93-8c78-d83edbcb6ba3}</destination>
 			<destination>{b31ea1d2-03cb-4942-b67e-7907cb4d521f}</destination>
+=======
+>>>>>>> Stashed changes
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{a2bbbe61-9626-4851-a981-7bb6930def75}" />
@@ -650,5 +692,8 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{6e9085c2-7c81-4d9e-a530-64127352db59}" />
+<<<<<<< Updated upstream
 	<object class="MixerBusFader" id="{d6716a64-f95d-480e-b64f-8e4fa5902b35}" />
+=======
+>>>>>>> Stashed changes
 </objects>
