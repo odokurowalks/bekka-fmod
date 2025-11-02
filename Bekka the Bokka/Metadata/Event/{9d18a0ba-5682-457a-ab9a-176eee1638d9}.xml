@@ -136,6 +136,9 @@
 		</relationship>
 	</object>
 	<object class="EventSound" id="{71a199b7-4dbc-4994-91c2-6e617e243ec1}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>1</value>
 		</property>
