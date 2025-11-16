@@ -23,7 +23,7 @@
 			<value>Confirm</value>
 			<value>PlayGame</value>
 			<value>BuyItem</value>
-			<value>CannotBuy</value>
+			<value>Error</value>
 			<value>SellItem</value>
 			<value>JournalPage</value>
 			<value>InventoryGet</value>

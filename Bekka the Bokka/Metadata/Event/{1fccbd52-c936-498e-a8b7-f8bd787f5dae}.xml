@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{1fccbd52-c936-498e-a8b7-f8bd787f5dae}">
 		<property name="name">
-			<value>CannotBuy</value>
+			<value>Error</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -55,7 +55,7 @@
 			<destination>{9590b8e6-9c56-4acc-b9eb-aaaee64e511a}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ed90c63f-cb8e-4599-b95e-3355f4d16478}</destination>
+			<destination>{0f4db560-dbd5-491d-a293-623ad815625b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{fc974909-b815-4815-84b3-97f5a1dec83d}">
