@@ -5,7 +5,7 @@
 			<value>chimes_wood</value>
 		</property>
 		<property name="outputFormat">
-			<value>5</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{054fb0cc-aad9-47cf-ac28-f538e47497c4}</destination>
@@ -99,10 +99,10 @@
 			<value>91.5</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>450</value>
+			<value>500</value>
 		</property>
 		<property name="spawnRate">
-			<value>90</value>
+			<value>76</value>
 		</property>
 		<property name="maximumScatterDistance">
 			<value>8</value>
@@ -141,6 +141,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{22197e1d-cf3e-4f17-b662-29b13db53b97}">
 		<relationship name="effects">
+			<destination>{354045d2-3be4-43f1-89a3-b4ff148a39cd}</destination>
 			<destination>{cf81ed14-6071-4da3-af34-ceac33d104de}</destination>
 		</relationship>
 	</object>
@@ -158,10 +159,12 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{a25fb586-e7af-4720-8383-b9fea135407b}">
 		<relationship name="effects">
+			<destination>{065af74e-278d-4ea0-9797-4d466eb8f10f}</destination>
 			<destination>{6beb2fc6-e37d-404b-b79e-008d24b12402}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{35502845-d20a-43bf-aded-561f86822936}" />
+	<object class="SpatialiserEffect" id="{354045d2-3be4-43f1-89a3-b4ff148a39cd}" />
 	<object class="MixerBusFader" id="{cf81ed14-6071-4da3-af34-ceac33d104de}" />
 	<object class="SingleSound" id="{175d83b2-de89-4a60-8e83-f9c6ffe682de}">
 		<relationship name="audioFile">
@@ -191,6 +194,17 @@
 	<object class="SingleSound" id="{f44e63fb-0bde-42d7-8cd6-8b920f160a63}">
 		<relationship name="audioFile">
 			<destination>{44bd329c-4026-417f-93b2-1ec9d3e1c64d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{065af74e-278d-4ea0-9797-4d466eb8f10f}">
+		<property name="level">
+			<value>-5</value>
+		</property>
+		<property name="inputFormat">
+			<value>5</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{b7375447-055e-45ed-8918-ab132d52390f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{6beb2fc6-e37d-404b-b79e-008d24b12402}" />
