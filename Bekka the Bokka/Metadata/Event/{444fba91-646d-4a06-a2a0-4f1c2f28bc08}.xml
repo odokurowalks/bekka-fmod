@@ -70,9 +70,6 @@
 		<relationship name="modules">
 			<destination>{268d9777-0fbc-41fd-8561-f6c2d0dccebc}</destination>
 		</relationship>
-		<relationship name="markers">
-			<destination>{a82febae-dbda-42d7-82f9-98c1a7fa2672}</destination>
-		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{46a477ee-73c0-42b5-82f3-e556def391e7}">
 		<relationship name="effectChain">
@@ -93,7 +90,7 @@
 	<object class="MixerBusPanner" id="{814bc1d2-acf8-40e3-ab3c-7328ec406791}" />
 	<object class="MultiSound" id="{268d9777-0fbc-41fd-8561-f6c2d0dccebc}">
 		<property name="length">
-			<value>5</value>
+			<value>0.1328125</value>
 		</property>
 		<property name="pitch">
 			<value>8</value>
@@ -120,20 +117,6 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{46a477ee-73c0-42b5-82f3-e556def391e7}</destination>
-		</relationship>
-	</object>
-	<object class="LoopRegion" id="{a82febae-dbda-42d7-82f9-98c1a7fa2672}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="length">
-			<value>0.15000000000000002</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{d674ac59-e342-4b5f-aabe-a71e769ee601}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{129144d7-0d7f-4a3b-8dce-a2362bf379f4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{63330c56-c139-44a8-af0d-6fb36fa7b67d}">
@@ -173,10 +156,28 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{f297233a-68a2-4cc1-89b9-9c854ed0d141}">
 		<relationship name="effects">
+			<destination>{583d5cc0-858f-4074-b767-78051d62a760}</destination>
 			<destination>{198224c1-62bf-4dcd-ada0-2e3e6b3c3816}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bdac5a02-4cf9-4f3b-a1dc-44284dc81dc3}" />
 	<object class="MixerBusFader" id="{5fe88cc3-9227-42b4-81c5-7fbf05b47497}" />
+	<object class="ThreeEQEffect" id="{583d5cc0-858f-4074-b767-78051d62a760}">
+		<property name="lowGain">
+			<value>-10.5</value>
+		</property>
+		<property name="highGain">
+			<value>-7</value>
+		</property>
+		<property name="lowCrossover">
+			<value>1350</value>
+		</property>
+		<property name="highCrossover">
+			<value>2800</value>
+		</property>
+		<property name="crossoverSlope">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{198224c1-62bf-4dcd-ada0-2e3e6b3c3816}" />
 </objects>
