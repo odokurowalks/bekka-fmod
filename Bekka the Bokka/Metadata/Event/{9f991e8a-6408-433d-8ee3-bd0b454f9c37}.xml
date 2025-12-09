@@ -159,7 +159,7 @@
 	<object class="MixerBusPanner" id="{c1fe028d-7b72-4a2a-b3fb-be25dacc2e1e}" />
 	<object class="EventSound" id="{eb52929a-8f88-4e18-8a88-e09f509fb365}">
 		<property name="start">
-			<value>0.00090000000000000008</value>
+			<value>0.0073989183329939666</value>
 		</property>
 		<property name="length">
 			<value>0.64952679937038116</value>
@@ -173,7 +173,7 @@
 			<value>Red Light 1</value>
 		</property>
 		<property name="volume">
-			<value>-7</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>Clothing</value>
@@ -190,7 +190,7 @@
 	</object>
 	<object class="EventSound" id="{d8d925b9-22fc-42a5-8f9b-420798f14dd6}">
 		<property name="start">
-			<value>0.0012999999999999999</value>
+			<value>0.022071697133238314</value>
 		</property>
 		<property name="length">
 			<value>0.73952679937038124</value>
@@ -204,7 +204,7 @@
 			<value>Red</value>
 		</property>
 		<property name="volume">
-			<value>-12</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>Backpack</value>

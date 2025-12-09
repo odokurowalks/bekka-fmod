@@ -154,7 +154,7 @@
 			<value>Red Light 1</value>
 		</property>
 		<property name="volume">
-			<value>-12</value>
+			<value>-10</value>
 		</property>
 		<property name="name">
 			<value>Clothing</value>
@@ -185,7 +185,7 @@
 			<value>Red</value>
 		</property>
 		<property name="volume">
-			<value>-12</value>
+			<value>-10</value>
 		</property>
 		<property name="name">
 			<value>Backpack</value>
@@ -219,6 +219,9 @@
 	<object class="EventMixerGroup" id="{e7582311-d6b9-45e6-a593-278941d7e25f}">
 		<property name="color">
 			<value>Green Light 1</value>
+		</property>
+		<property name="volume">
+			<value>4</value>
 		</property>
 		<property name="name">
 			<value>Grass</value>
@@ -255,6 +258,9 @@
 	<object class="EventMixerGroup" id="{0ce0d052-0f9e-4bc5-b422-911d649b2b28}">
 		<property name="color">
 			<value>Yellow Light 2</value>
+		</property>
+		<property name="volume">
+			<value>3</value>
 		</property>
 		<property name="name">
 			<value>Snow</value>
@@ -293,7 +299,7 @@
 			<value>Red Light 2</value>
 		</property>
 		<property name="volume">
-			<value>-1.5</value>
+			<value>2</value>
 		</property>
 		<property name="name">
 			<value>Wood</value>
