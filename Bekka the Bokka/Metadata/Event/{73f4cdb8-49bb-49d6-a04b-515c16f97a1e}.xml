@@ -95,6 +95,9 @@
 		<property name="pitch">
 			<value>2</value>
 		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{dd5854fc-d177-46ff-ac48-47dc5df25eec}</destination>
 		</relationship>
