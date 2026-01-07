@@ -8,7 +8,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{f68dfe13-f7f7-4729-a6ef-8d603180c38f}</destination>
+			<destination>{054fb0cc-aad9-47cf-ac28-f538e47497c4}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{f08149a1-a894-4cf2-a1d9-69ef5b3a866a}</destination>
@@ -214,7 +214,7 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>10</value>
+			<value>35</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{73a839ff-5ebe-4e35-8f15-33b49afe492f}" />
