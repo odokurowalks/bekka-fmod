@@ -5,7 +5,7 @@
 			<value>windmill</value>
 		</property>
 		<property name="outputFormat">
-			<value>5</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{054fb0cc-aad9-47cf-ac28-f538e47497c4}</destination>
@@ -105,14 +105,11 @@
 		<property name="length">
 			<value>17.016999999999999</value>
 		</property>
-		<property name="volume">
-			<value>-12</value>
-		</property>
 		<property name="minimumTimeBetweenSounds">
-			<value>1000</value>
+			<value>900</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>6000</value>
+			<value>3000</value>
 		</property>
 		<property name="spawnRate">
 			<value>50</value>
@@ -129,7 +126,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{28a01c2e-fac7-40ec-a31f-5adcb545c112}">
 		<property name="volume">
-			<value>-12</value>
+			<value>-28</value>
 		</property>
 		<property name="name">
 			<value>scatterer</value>
@@ -154,7 +151,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{23312bed-1f0a-498e-a327-37358ac282a3}">
 		<property name="volume">
-			<value>-5</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>creak</value>
@@ -200,6 +197,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{6e3d6550-c248-418c-bbac-39018b20e2ae}">
 		<relationship name="effects">
+			<destination>{ba20e565-d4d4-4f59-be5a-29145e81b459}</destination>
+			<destination>{8b0137b9-9635-42dc-a9db-d535eb642494}</destination>
 			<destination>{0c8b03fb-b303-459f-8f36-0649cc3957bd}</destination>
 		</relationship>
 	</object>
@@ -230,6 +229,19 @@
 		<relationship name="audioFile">
 			<destination>{94e179c6-a5f2-477c-9f8e-d6c110e370ed}</destination>
 		</relationship>
+	</object>
+	<object class="ChannelMixEffect" id="{ba20e565-d4d4-4f59-be5a-29145e81b459}">
+		<property name="outputGrouping">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{8b0137b9-9635-42dc-a9db-d535eb642494}">
+		<property name="decayTime">
+			<value>650</value>
+		</property>
+		<property name="wetLevel">
+			<value>-12</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{0c8b03fb-b303-459f-8f36-0649cc3957bd}" />
 	<object class="MixerBusFader" id="{f8362cf8-5e69-4d91-9f45-8ea2dbe82783}" />
