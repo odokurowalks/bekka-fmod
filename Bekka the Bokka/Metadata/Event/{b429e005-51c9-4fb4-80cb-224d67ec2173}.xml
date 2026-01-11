@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b429e005-51c9-4fb4-80cb-224d67ec2173}">
 		<property name="name">
-			<value>cloth loop</value>
+			<value>cloth_loop</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{394d8692-0651-4417-b00d-ee2e5eec780c}</destination>
@@ -95,17 +95,25 @@
 	</object>
 	<object class="MixerBusPanner" id="{1e501728-7250-4e57-b3c2-68784ca3e953}" />
 	<object class="SingleSound" id="{84aaab7b-5922-4577-a60f-c92179378722}">
+		<property name="start">
+			<value>0.40000000000000002</value>
+		</property>
 		<property name="length">
 			<value>22</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{06d312aa-aff1-45c2-91cd-9c04b8997c88}</destination>
+			<destination>{18fc59f3-9a49-4cac-935f-e2f28808bc2d}</destination>
+			<destination>{8f6ef1e3-9753-43b2-9e6b-f13a93d5d277}</destination>
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{52979e3b-0205-47cc-85ce-43926d16c7e6}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{7702806b-c53d-406d-826a-7596a313fdee}">
+		<property name="volume">
+			<value>-15</value>
+		</property>
 		<property name="name">
 			<value>Cloth</value>
 		</property>
@@ -121,7 +129,7 @@
 	</object>
 	<object class="LoopRegion" id="{3ac7a718-384a-420b-be6e-625d3d3a6152}">
 		<property name="position">
-			<value>0</value>
+			<value>0.40000000000000002</value>
 		</property>
 		<property name="length">
 			<value>22</value>
@@ -153,6 +161,7 @@
 	<object class="MixerBusEffectChain" id="{c46f5c78-ff2f-4efe-a9a8-ef0e12603354}">
 		<relationship name="effects">
 			<destination>{945dbc2b-9423-486f-9cac-308d53b76449}</destination>
+			<destination>{5ea374c5-c0e3-4e0c-97a4-78323b10f76d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b281a690-20a9-41f3-82b3-87203bccfec6}" />
@@ -165,6 +174,37 @@
 			<value>6.25</value>
 		</property>
 	</object>
+	<object class="RandomizerModulator" id="{18fc59f3-9a49-4cac-935f-e2f28808bc2d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>startOffset</value>
+		</property>
+		<property name="amount">
+			<value>100</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{8f6ef1e3-9753-43b2-9e6b-f13a93d5d277}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>200</value>
+		</property>
+		<property name="attackShape">
+			<value>-0.461142242</value>
+		</property>
+		<property name="releaseTime">
+			<value>500</value>
+		</property>
+		<property name="releaseShape">
+			<value>0.516696215</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{a4057195-d983-4942-8bdb-f49045114d4f}">
 		<relationship name="effects">
 			<destination>{baa4ec84-fd37-4a88-bbe6-54e00b67a6ac}</destination>
@@ -172,5 +212,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{0a340641-6af8-42f9-a5fc-7194a4d39f18}" />
 	<object class="MixerBusFader" id="{945dbc2b-9423-486f-9cac-308d53b76449}" />
+	<object class="SpatialiserEffect" id="{5ea374c5-c0e3-4e0c-97a4-78323b10f76d}" />
 	<object class="MixerBusFader" id="{baa4ec84-fd37-4a88-bbe6-54e00b67a6ac}" />
 </objects>

@@ -5,7 +5,7 @@
 			<value>wood_large</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{394d8692-0651-4417-b00d-ee2e5eec780c}</destination>
@@ -96,6 +96,7 @@
 	<object class="MixerBusEffectChain" id="{977fbcd6-0d22-4f35-946b-3eb549e9d1d1}">
 		<relationship name="effects">
 			<destination>{e0dd2cff-2958-48ec-a196-4f9a383e64fa}</destination>
+			<destination>{cf0ae0bb-4188-4d18-8e99-385c40aee997}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5c474a55-361d-4ddc-ac3c-f8197dff9e39}" />
@@ -118,6 +119,7 @@
 	</object>
 	<object class="MixerBusFader" id="{5ea559cd-590e-43f0-9b74-21fd24a360d6}" />
 	<object class="MixerBusFader" id="{e0dd2cff-2958-48ec-a196-4f9a383e64fa}" />
+	<object class="SpatialiserEffect" id="{cf0ae0bb-4188-4d18-8e99-385c40aee997}" />
 	<object class="RandomizerModulator" id="{82bcae99-981e-4e81-a14f-6fda5755a323}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
