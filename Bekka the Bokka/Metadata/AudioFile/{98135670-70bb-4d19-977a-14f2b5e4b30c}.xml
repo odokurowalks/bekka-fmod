@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{98135670-70bb-4d19-977a-14f2b5e4b30c}">
+		<property name="assetPath">
+			<value>Music/Trail Theme/V2/TrailAb75_Drums_B.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>13.434770833333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7bd2dab8-5670-4f1e-bfc1-7c0b3fdb44b5}</destination>
+		</relationship>
+	</object>
+</objects>
