@@ -151,6 +151,12 @@
 		<property name="maximumDistance">
 			<value>8</value>
 		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="minimumExtent">
+			<value>45</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{dbab2be8-c2d9-4235-ac3f-d22b4ea81e21}" />
 	<object class="SFXReverbEffect" id="{068fd245-ab0c-4c03-bffb-308f352baa4f}">

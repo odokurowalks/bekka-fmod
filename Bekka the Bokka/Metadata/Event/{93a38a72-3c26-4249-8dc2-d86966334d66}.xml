@@ -89,8 +89,11 @@
 	</object>
 	<object class="EventMixerMaster" id="{9c6506d3-1db3-43e1-8b18-e5c560bdb943}">
 		<property name="volume">
-			<value>-15</value>
+			<value>-22</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{e2c3088b-7b92-4ea3-9373-67c2d0a8e49b}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{99fe028f-37b6-4915-9778-b798af8096f8}</destination>
 		</relationship>
@@ -173,6 +176,29 @@
 			<destination>{f0227c31-31d8-4e96-9218-2a9ff706c7af}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{e2c3088b-7b92-4ea3-9373-67c2d0a8e49b}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>250</value>
+		</property>
+		<property name="attackShape">
+			<value>0.429262519</value>
+		</property>
+		<property name="releaseTime">
+			<value>500</value>
+		</property>
+		<property name="releaseShape">
+			<value>0.62872833</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{99fe028f-37b6-4915-9778-b798af8096f8}">
 		<relationship name="effects">
 			<destination>{6a3cb347-241c-4084-9e1e-5f4c4c800ab8}</destination>
@@ -205,7 +231,7 @@
 	<object class="MixerBusFader" id="{6a3cb347-241c-4084-9e1e-5f4c4c800ab8}" />
 	<object class="SpatialiserEffect" id="{f929fffa-9997-4499-9014-91b89d7c0547}">
 		<property name="maximumDistance">
-			<value>35</value>
+			<value>15</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
@@ -214,7 +240,10 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>35</value>
+			<value>30</value>
+		</property>
+		<property name="minimumExtent">
+			<value>100</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{73a839ff-5ebe-4e35-8f15-33b49afe492f}" />
