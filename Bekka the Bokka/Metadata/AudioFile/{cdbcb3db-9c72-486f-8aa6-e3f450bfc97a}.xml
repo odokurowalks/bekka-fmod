@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{cdbcb3db-9c72-486f-8aa6-e3f450bfc97a}">
 		<property name="assetPath">
-			<value>Camp Ambient - Plink_3.wav</value>
+			<value>Music/CampAmbient/Camp Ambient - Plink_3.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

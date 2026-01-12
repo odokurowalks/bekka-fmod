@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{fcd02f39-ed02-4cb1-b4cf-e2f8f40c01b2}">
 		<property name="assetPath">
-			<value>Camp Ambient - Bass.wav</value>
+			<value>Music/CampAmbient/Camp Ambient - Bass.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

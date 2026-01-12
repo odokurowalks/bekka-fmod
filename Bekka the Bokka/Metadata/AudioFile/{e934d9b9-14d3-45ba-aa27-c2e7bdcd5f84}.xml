@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{e934d9b9-14d3-45ba-aa27-c2e7bdcd5f84}">
 		<property name="assetPath">
-			<value>GameStateSFX/FallOffMap/Parachute-001.wav</value>
+			<value>PlayerMoveSFX/FallOffMap/Parachute-001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

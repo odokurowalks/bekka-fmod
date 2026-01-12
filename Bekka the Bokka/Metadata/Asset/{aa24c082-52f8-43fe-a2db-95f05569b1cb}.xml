@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="EncodableAsset" id="{af7183de-fa19-4f70-97a1-d2b12a2eb679}">
+	<object class="EncodableAsset" id="{aa24c082-52f8-43fe-a2db-95f05569b1cb}">
 		<property name="assetPath">
-			<value>PlayerMoveSFX/Jump/JumpStart/</value>
+			<value>Music/CampAmbient/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{7bd2dab8-5670-4f1e-bfc1-7c0b3fdb44b5}</destination>

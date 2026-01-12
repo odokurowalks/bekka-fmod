@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="EncodableAsset" id="{03d791d8-3484-4a86-86a1-4ad0265678f6}">
 		<property name="assetPath">
-			<value>GameStateSFX/FallOffMap/</value>
+			<value>PlayerMoveSFX/FallOffMap/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{7bd2dab8-5670-4f1e-bfc1-7c0b3fdb44b5}</destination>
