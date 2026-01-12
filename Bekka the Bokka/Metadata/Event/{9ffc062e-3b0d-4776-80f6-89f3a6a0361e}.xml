@@ -60,7 +60,6 @@
 	<object class="MarkerTrack" id="{3d55f88a-9d30-4de2-ad15-dd2b8a52385c}" />
 	<object class="GroupTrack" id="{0a0f8418-8cd0-4d43-80a3-fc6033e0a578}">
 		<relationship name="modules">
-			<destination>{60934665-4e86-497a-b214-19280dc80017}</destination>
 			<destination>{a252bdc2-31dd-44e7-b4ba-a7ef8bbf5b4b}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
@@ -69,7 +68,6 @@
 	</object>
 	<object class="Timeline" id="{eac983ec-1afc-4a9f-9670-69cb04f415a3}">
 		<relationship name="modules">
-			<destination>{60934665-4e86-497a-b214-19280dc80017}</destination>
 			<destination>{a252bdc2-31dd-44e7-b4ba-a7ef8bbf5b4b}</destination>
 		</relationship>
 	</object>
@@ -90,18 +88,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{79db2fad-a3cd-4eea-90bf-d4723abb75c1}" />
-	<object class="MultiSound" id="{60934665-4e86-497a-b214-19280dc80017}">
-		<property name="start">
-			<value>12</value>
-		</property>
-		<property name="length">
-			<value>11.533333333333333</value>
-		</property>
-		<relationship name="sounds">
-			<destination>{b0794757-cf16-4d27-b31c-f9e0177529ae}</destination>
-			<destination>{bec0b97b-0e38-4085-b6f9-2cd7a650563f}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{a252bdc2-31dd-44e7-b4ba-a7ef8bbf5b4b}">
 		<property name="length">
 			<value>7.8407936507936506</value>
@@ -131,16 +117,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{dcf7ecba-ce09-4235-9906-8d0e487085f6}" />
 	<object class="MixerBusFader" id="{898aa3e9-be95-446f-8832-24165c42f29a}" />
-	<object class="SingleSound" id="{b0794757-cf16-4d27-b31c-f9e0177529ae}">
-		<relationship name="audioFile">
-			<destination>{6405653a-95b0-4c2d-bd4b-b394ef1e2c56}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{bec0b97b-0e38-4085-b6f9-2cd7a650563f}">
-		<relationship name="audioFile">
-			<destination>{7c7b2d16-532f-4a97-9485-3e86a1fbf730}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusEffectChain" id="{fd2ee6bb-2bb2-4e7c-a3f8-04f73687626f}">
 		<relationship name="effects">
 			<destination>{79da9466-b7e8-4135-9c19-4c043b06ce4b}</destination>

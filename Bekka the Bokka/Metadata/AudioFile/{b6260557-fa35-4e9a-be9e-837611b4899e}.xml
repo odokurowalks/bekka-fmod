@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{b6260557-fa35-4e9a-be9e-837611b4899e}">
 		<property name="assetPath">
-			<value>Cutscenes/OpeningCutsceneSFX.aif</value>
+			<value>Cutscene/OpeningCutsceneSFX.aif</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
