@@ -807,7 +807,7 @@
 			<value>8</value>
 		</property>
 		<property name="maximum">
-			<value>10</value>
+			<value>8</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{233551f5-3e4c-4597-a423-4e74c689d548}</destination>
