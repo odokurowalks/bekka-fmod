@@ -16,12 +16,11 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>7</value>
+			<value>6</value>
 		</property>
 		<property name="enumerationLabels">
 			<value>trail_low</value>
 			<value>camp</value>
-			<value>shop_interior</value>
 			<value>HiWind</value>
 			<value>Rain</value>
 			<value>LoSnow</value>
