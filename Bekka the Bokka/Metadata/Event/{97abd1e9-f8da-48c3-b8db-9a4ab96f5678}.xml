@@ -97,6 +97,7 @@
 		</property>
 		<relationship name="modulators">
 			<destination>{b8957618-4556-4abe-b45a-127739240bf4}</destination>
+			<destination>{e9c9cb7f-7ea8-4293-a77e-65eb5d958da6}</destination>
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{b2dc0405-aa28-4c4e-b401-f94e9c1c5963}</destination>
@@ -143,6 +144,14 @@
 		</property>
 		<property name="amount">
 			<value>100</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{e9c9cb7f-7ea8-4293-a77e-65eb5d958da6}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="releaseTime">
+			<value>60000</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{b7c51d27-c22c-4737-b2c4-583061865362}">
