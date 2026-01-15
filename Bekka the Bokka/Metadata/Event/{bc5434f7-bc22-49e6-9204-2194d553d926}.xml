@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{bc5434f7-bc22-49e6-9204-2194d553d926}">
 		<property name="name">
-			<value>bekka_chat 2</value>
+			<value>bekka_chat</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -103,6 +103,9 @@
 		</property>
 		<property name="looping">
 			<value>true</value>
+		</property>
+		<property name="playCount">
+			<value>1</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{f7ce83da-e502-4560-940c-dfd5b7c3f674}</destination>

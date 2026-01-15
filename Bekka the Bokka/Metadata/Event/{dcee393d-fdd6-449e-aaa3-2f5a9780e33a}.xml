@@ -116,7 +116,14 @@
 	</object>
 	<object class="MixerBusFader" id="{b641add8-88db-41ac-a4f6-a13a4f9f9484}" />
 	<object class="MixerBusFader" id="{24b988c9-93bf-4977-8432-52c2d2cce517}" />
-	<object class="SpatialiserEffect" id="{b897104d-d027-4661-bbeb-209ce57031a5}" />
+	<object class="SpatialiserEffect" id="{b897104d-d027-4661-bbeb-209ce57031a5}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="minimumExtent">
+			<value>90</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{b2325b3f-f427-4f96-a6cf-f0becf9e4be9}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>

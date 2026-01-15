@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{38741b76-5ba8-4a78-8ab6-3d68bb5893d7}">
 		<property name="name">
-			<value>keith_chat 2</value>
+			<value>keith_chat</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -95,8 +95,14 @@
 		<property name="length">
 			<value>0.15000000000000002</value>
 		</property>
+		<property name="pitch">
+			<value>-1</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
+		</property>
+		<property name="playCount">
+			<value>1</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{3a520167-0897-4dad-be44-8c50bb21124f}</destination>
