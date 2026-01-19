@@ -1051,6 +1051,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{3f9c2491-55ed-4f7a-9380-f9f7b133c1f9}">
+		<property name="triggerConditionMode">
+			<value>1</value>
+		</property>
 		<property name="start">
 			<value>76.799999999999969</value>
 		</property>
@@ -2010,6 +2013,9 @@
 		</property>
 	</object>
 	<object class="SingleSound" id="{9919dd9a-a332-4fb4-9ec7-94992218feb9}">
+		<property name="triggerConditionMode">
+			<value>1</value>
+		</property>
 		<property name="start">
 			<value>76.799999999999969</value>
 		</property>
@@ -4816,7 +4822,7 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>2</value>
+			<value>3</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{b04b09a6-6998-41c2-921a-8ba44c1df66f}</destination>
