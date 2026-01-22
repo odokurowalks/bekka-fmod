@@ -1,34 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="ParameterPreset" id="{3ca8e141-612d-430f-a0fc-bb0b71f0245f}">
+	<object class="ParameterPreset" id="{ed750e48-9735-4f7e-9739-50f8b1efe546}">
 		<property name="name">
-			<value>UI_Action</value>
+			<value>Frogbert</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a72af6c0-e29a-4f86-8511-1ded6f2e4f82}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{6a2d4f9c-69ec-4107-a5c2-90951149f26e}</destination>
+			<destination>{c4271db8-6b7b-44ec-9a75-56af5d416b3b}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{6a2d4f9c-69ec-4107-a5c2-90951149f26e}">
+	<object class="GameParameter" id="{c4271db8-6b7b-44ec-9a75-56af5d416b3b}">
 		<property name="parameterType">
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>10</value>
+			<value>2</value>
 		</property>
 		<property name="enumerationLabels">
-			<value>Hover</value>
-			<value>Confirm</value>
-			<value>BuyItem</value>
-			<value>CannotBuy</value>
-			<value>SellItem</value>
-			<value>InventoryGet</value>
-			<value>SupplyGet</value>
-			<value>SupplyClose</value>
-			<value>DialogueNext</value>
-			<value>ResetLevel</value>
+			<value>Ribbit</value>
+			<value>Blink</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
