@@ -63,12 +63,9 @@
 	<object class="MarkerTrack" id="{ad2818ee-c9db-4e21-a91f-e14f5a980fe9}" />
 	<object class="GroupTrack" id="{e4b3025b-b5b6-4654-b6e1-2ccf750c5baa}">
 		<relationship name="modules">
-			<destination>{588151aa-f195-4486-bdb5-4e0c6aeaa476}</destination>
-			<destination>{0608cdaa-f61b-414d-90ef-5dd2761bb2b1}</destination>
-			<destination>{3c96aad8-a56d-4134-9907-4a7edc646916}</destination>
-			<destination>{515b518d-0a99-479c-9b71-9348b6207171}</destination>
 			<destination>{8420659d-7ad5-4e9c-aafc-f7297570c724}</destination>
 			<destination>{535ed1c4-d321-445a-8bff-a55e208a65b1}</destination>
+			<destination>{0480d810-f3c4-486a-aa9a-e50cf6176e35}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d20b376e-00b9-4a53-92b3-83602705acea}</destination>
@@ -81,12 +78,9 @@
 	</object>
 	<object class="ParameterProxy" id="{b2d4d89f-b92b-4806-9806-042e60427a27}">
 		<relationship name="modules">
-			<destination>{588151aa-f195-4486-bdb5-4e0c6aeaa476}</destination>
-			<destination>{0608cdaa-f61b-414d-90ef-5dd2761bb2b1}</destination>
-			<destination>{3c96aad8-a56d-4134-9907-4a7edc646916}</destination>
-			<destination>{515b518d-0a99-479c-9b71-9348b6207171}</destination>
 			<destination>{8420659d-7ad5-4e9c-aafc-f7297570c724}</destination>
 			<destination>{535ed1c4-d321-445a-8bff-a55e208a65b1}</destination>
+			<destination>{0480d810-f3c4-486a-aa9a-e50cf6176e35}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{cdffc3a2-9c38-449f-b49d-f18f4bc1a45b}</destination>
@@ -109,65 +103,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{888d8a9a-d76b-414b-9273-3d32a73097d4}" />
-	<object class="SingleSound" id="{588151aa-f195-4486-bdb5-4e0c6aeaa476}">
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
-		<property name="start">
-			<value>2</value>
-		</property>
-		<property name="looping">
-			<value>true</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{e2ee828c-df8c-4514-b517-cc496c9fdfbb}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{0608cdaa-f61b-414d-90ef-5dd2761bb2b1}">
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
-		<property name="start">
-			<value>5</value>
-		</property>
-		<property name="looping">
-			<value>true</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{96110611-0dea-4483-a784-4f77bbc8a8a1}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{3c96aad8-a56d-4134-9907-4a7edc646916}">
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
-		<property name="start">
-			<value>3</value>
-		</property>
-		<property name="looping">
-			<value>true</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{5fd003e7-95fe-403d-ae1f-ac1c9bb05e1e}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{515b518d-0a99-479c-9b71-9348b6207171}">
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
-		<property name="start">
-			<value>4</value>
-		</property>
-		<property name="looping">
-			<value>true</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{0a711f79-09a4-497b-afde-4d2a08dd469e}</destination>
-		</relationship>
-	</object>
 	<object class="EventSound" id="{8420659d-7ad5-4e9c-aafc-f7297570c724}">
 		<property name="isCutoff">
 			<value>true</value>
+		</property>
+		<property name="start">
+			<value>1</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{22b77c3d-8934-4405-8c12-c1fec6474aff}</destination>
@@ -180,11 +121,16 @@
 		<property name="isCutoff">
 			<value>true</value>
 		</property>
-		<property name="start">
-			<value>1</value>
-		</property>
 		<relationship name="event">
 			<destination>{f9fa9e5e-9579-411a-9e01-aa444decbfc0}</destination>
+		</relationship>
+	</object>
+	<object class="EventSound" id="{0480d810-f3c4-486a-aa9a-e50cf6176e35}">
+		<property name="start">
+			<value>2</value>
+		</property>
+		<relationship name="event">
+			<destination>{c51fb315-88cd-46a8-9ca3-1a5a7ab6bca2}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d20b376e-00b9-4a53-92b3-83602705acea}">

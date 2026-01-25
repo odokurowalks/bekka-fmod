@@ -5,7 +5,7 @@
 			<value>currentLevel</value>
 		</property>
 		<relationship name="folder">
-			<destination>{a72af6c0-e29a-4f86-8511-1ded6f2e4f82}</destination>
+			<destination>{71dda3f5-9b74-4e20-8d43-bba0ddce132c}</destination>
 		</relationship>
 		<relationship name="parameter">
 			<destination>{a8aefc2f-021f-4510-a8a1-1a9910d3a4e3}</destination>
@@ -16,12 +16,14 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>3</value>
+			<value>5</value>
 		</property>
 		<property name="enumerationLabels">
 			<value>mainmenu</value>
 			<value>camp</value>
 			<value>trail</value>
+			<value>rockslide</value>
+			<value>keith</value>
 		</property>
 		<property name="isGlobal">
 			<value>true</value>

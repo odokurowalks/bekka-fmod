@@ -16,15 +16,12 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>6</value>
+			<value>3</value>
 		</property>
 		<property name="enumerationLabels">
-			<value>trail_low</value>
 			<value>camp</value>
-			<value>HiWind</value>
-			<value>Rain</value>
-			<value>LoSnow</value>
-			<value>HiSnow</value>
+			<value>trail</value>
+			<value>mainmenu</value>
 		</property>
 		<property name="isGlobal">
 			<value>true</value>
