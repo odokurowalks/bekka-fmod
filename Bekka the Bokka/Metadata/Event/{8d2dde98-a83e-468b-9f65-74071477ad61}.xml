@@ -69,6 +69,7 @@
 			<destination>{0eb1ddfc-180b-421d-ab74-c24b11644b38}</destination>
 			<destination>{fc297fde-cf37-487f-8f00-5d25ae46f11d}</destination>
 			<destination>{5ceec624-5cb0-450d-80dd-7d2ae1359fd2}</destination>
+			<destination>{ba449310-bee0-445f-b3e8-f1ea29f617fa}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{a53d34ae-afc9-47b0-b1ce-83a4b0fe2270}</destination>
@@ -87,6 +88,7 @@
 			<destination>{0eb1ddfc-180b-421d-ab74-c24b11644b38}</destination>
 			<destination>{fc297fde-cf37-487f-8f00-5d25ae46f11d}</destination>
 			<destination>{5ceec624-5cb0-450d-80dd-7d2ae1359fd2}</destination>
+			<destination>{ba449310-bee0-445f-b3e8-f1ea29f617fa}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{dea88f58-7aaf-44e7-8b0a-1fe56632f0c7}</destination>
@@ -152,6 +154,14 @@
 		</property>
 		<relationship name="event">
 			<destination>{51f5d83b-330a-4a23-ab56-aaee32e5cb16}</destination>
+		</relationship>
+	</object>
+	<object class="EventSound" id="{ba449310-bee0-445f-b3e8-f1ea29f617fa}">
+		<property name="start">
+			<value>6</value>
+		</property>
+		<relationship name="event">
+			<destination>{08b789f2-3ab3-440d-9d07-6aca15a911c9}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a53d34ae-afc9-47b0-b1ce-83a4b0fe2270}">
