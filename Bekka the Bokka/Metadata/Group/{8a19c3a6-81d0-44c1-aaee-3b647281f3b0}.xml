@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{8a19c3a6-81d0-44c1-aaee-3b647281f3b0}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<property name="name">
 			<value>sfx</value>
 		</property>
@@ -18,6 +21,7 @@
 		<relationship name="effects">
 			<destination>{a701ac36-5f22-4274-b2b6-7a2497412c31}</destination>
 			<destination>{869cc2e3-7ea2-4cea-b81e-7b80c923c695}</destination>
+			<destination>{12d0472f-5f33-4ece-92be-c09842e30f72}</destination>
 			<destination>{a02dd01b-9ff1-4a86-b901-63cfa0b3eb68}</destination>
 		</relationship>
 	</object>
@@ -31,6 +35,11 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{869cc2e3-7ea2-4cea-b81e-7b80c923c695}" />
+	<object class="Sidechain" id="{12d0472f-5f33-4ece-92be-c09842e30f72}">
+		<property name="level">
+			<value>-45</value>
+		</property>
+	</object>
 	<object class="MixerSend" id="{a02dd01b-9ff1-4a86-b901-63cfa0b3eb68}">
 		<property name="inputFormat">
 			<value>2</value>

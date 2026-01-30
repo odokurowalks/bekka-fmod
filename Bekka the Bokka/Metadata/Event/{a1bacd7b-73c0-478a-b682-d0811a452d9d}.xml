@@ -5,7 +5,7 @@
 			<value>geyser_blow</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{13c902ac-a764-4988-84ba-b122a4156353}</destination>
@@ -118,6 +118,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{96ac8a9d-d4b9-441f-9ce0-ca768e7ae436}">
 		<relationship name="effects">
+			<destination>{8dd645c7-d39f-4394-bb88-e2f6aef5edd0}</destination>
 			<destination>{619d49dd-db85-4007-a789-7d01bf489246}</destination>
 		</relationship>
 	</object>
@@ -157,6 +158,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2074cc9f-6aa5-4320-b93a-1d08b726364d}" />
+	<object class="SpatialiserEffect" id="{8dd645c7-d39f-4394-bb88-e2f6aef5edd0}">
+		<property name="maximumDistance">
+			<value>30</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{619d49dd-db85-4007-a789-7d01bf489246}" />
 	<object class="MixerBusFader" id="{fc4799d7-492b-40ec-bd49-c7d37be43372}" />
 </objects>

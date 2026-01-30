@@ -59,11 +59,7 @@
 			<destination>{0f4db560-dbd5-491d-a293-623ad815625b}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{c5d9f226-bb85-4898-b778-d36e7dd75eec}">
-		<property name="triggerCooldown">
-			<value>200</value>
-		</property>
-	</object>
+	<object class="EventAutomatableProperties" id="{c5d9f226-bb85-4898-b778-d36e7dd75eec}" />
 	<object class="MarkerTrack" id="{5533481a-a132-45b3-b96b-7e56cc28d8b8}" />
 	<object class="Timeline" id="{9c119a5f-2e6d-4211-85fa-7b4641bfcd53}">
 		<property name="isProxyEnabled">
@@ -106,7 +102,7 @@
 	<object class="MixerBusPanner" id="{939a2b26-312a-4722-ae21-03527f0b95e9}" />
 	<object class="MultiSound" id="{34d33e90-3a8a-46f6-867e-41fae30a3787}">
 		<property name="volume">
-			<value>5</value>
+			<value>3</value>
 		</property>
 		<property name="pitch">
 			<value>3</value>
@@ -122,8 +118,11 @@
 	<object class="MixerBusFader" id="{be3f9164-1034-465a-9b76-f04d255845ec}" />
 	<object class="GainEffect" id="{a0cf0900-7e19-4082-a4ac-4d1c6ff8d7a6}">
 		<property name="gain">
-			<value>10</value>
+			<value>6.5</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{7f31cfb5-ec36-486a-a98f-0eadcd393009}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{b88eeaf3-8333-4fdf-99af-d71f244e46c5}" />
 	<object class="RandomizerModulator" id="{146028cc-ecc8-4c4a-ae4c-a2acb5082d35}">
@@ -143,5 +142,13 @@
 		<relationship name="audioFile">
 			<destination>{adb8e074-6c68-4739-81a7-b935be07661a}</destination>
 		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{7f31cfb5-ec36-486a-a98f-0eadcd393009}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>gain</value>
+		</property>
+		<property name="amount">
+			<value>2</value>
+		</property>
 	</object>
 </objects>

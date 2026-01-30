@@ -167,6 +167,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{31b5d6a0-4aa1-4b10-a6de-da2b53d7b8ed}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{cccda702-9296-43ae-9e25-fad506cb875a}</destination>
 		</relationship>
@@ -452,6 +455,9 @@
 		</property>
 		<property name="commandType">
 			<value>3</value>
+		</property>
+		<property name="targetValue">
+			<value>4</value>
 		</property>
 		<relationship name="commandTarget">
 			<destination>{61ff4d18-1296-4104-8158-630d70c55ddf}</destination>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{a01e7057-22f5-4cb2-b497-b03fd28adb5a}">
 		<property name="volume">
-			<value>-4</value>
+			<value>-9.5</value>
 		</property>
 		<property name="name">
 			<value>mus</value>
@@ -22,7 +22,7 @@
 			<destination>{57766bff-22ad-4af3-91b5-888d2c02aed3}</destination>
 			<destination>{869ea646-a93b-498f-9793-36f702e0f4e9}</destination>
 			<destination>{0f176fab-19ba-4313-85cb-7502b352ffad}</destination>
-			<destination>{a76fac39-0fed-4422-84ac-6e83820f0f71}</destination>
+			<destination>{bfd57c6b-9ad4-47ed-84ab-9365777cc87f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5059bf38-cb55-410a-af23-e6fe1f904589}" />
@@ -43,20 +43,21 @@
 			<destination>{b7375447-055e-45ed-8918-ab132d52390f}</destination>
 		</relationship>
 	</object>
-	<object class="CompressorEffect" id="{a76fac39-0fed-4422-84ac-6e83820f0f71}">
+	<object class="CompressorEffect" id="{bfd57c6b-9ad4-47ed-84ab-9365777cc87f}">
 		<property name="threshold">
-			<value>-30.5</value>
+			<value>-35</value>
 		</property>
 		<property name="attackTime">
-			<value>50</value>
+			<value>56</value>
 		</property>
 		<property name="releaseTime">
 			<value>450</value>
 		</property>
 		<property name="gain">
-			<value>-10</value>
+			<value>-5</value>
 		</property>
 		<relationship name="sidechains">
+			<destination>{12d0472f-5f33-4ece-92be-c09842e30f72}</destination>
 			<destination>{f22bf842-3a9c-489b-a951-e2697a50cce1}</destination>
 		</relationship>
 	</object>

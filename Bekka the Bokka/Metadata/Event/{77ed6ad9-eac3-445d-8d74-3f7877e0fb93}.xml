@@ -5,7 +5,7 @@
 			<value>geyser_rumble</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{13c902ac-a764-4988-84ba-b122a4156353}</destination>
@@ -124,6 +124,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{071844cd-870d-478d-b0f7-3bfe9c45b397}">
 		<relationship name="effects">
+			<destination>{4a03f98c-a34d-4075-8966-cca9d89c0de8}</destination>
 			<destination>{f80686a9-84fe-4611-bf00-d5e58f8fc190}</destination>
 		</relationship>
 	</object>
@@ -171,6 +172,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7929e106-3fb2-434a-a068-5bc82f6cab7c}" />
+	<object class="SpatialiserEffect" id="{4a03f98c-a34d-4075-8966-cca9d89c0de8}">
+		<property name="maximumDistance">
+			<value>40</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{f80686a9-84fe-4611-bf00-d5e58f8fc190}" />
 	<object class="AutomationPoint" id="{463e88d3-d324-495a-a2d9-9e26a96771f4}">
 		<property name="position">

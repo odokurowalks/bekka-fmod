@@ -16,7 +16,7 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>10</value>
+			<value>12</value>
 		</property>
 		<property name="enumerationLabels">
 			<value>Hover</value>
@@ -29,6 +29,8 @@
 			<value>SupplyClose</value>
 			<value>DialogueNext</value>
 			<value>ResetLevel</value>
+			<value>SliderUp</value>
+			<value>SliderDown</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
