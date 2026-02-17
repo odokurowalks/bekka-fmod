@@ -1791,6 +1791,7 @@
 		<relationship name="automationPoints">
 			<destination>{2cf358ee-23a1-4052-95d6-03787dd8b379}</destination>
 			<destination>{b330fd41-7c77-4720-8bf2-2670335c080f}</destination>
+			<destination>{930add60-4e7a-4e26-8bb0-7a097ab89141}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{dc152e49-1174-438a-a1c7-e345547e6bf7}" />
@@ -2024,6 +2025,14 @@
 	<object class="AutomationPoint" id="{b330fd41-7c77-4720-8bf2-2670335c080f}">
 		<property name="position">
 			<value>2</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{930add60-4e7a-4e26-8bb0-7a097ab89141}">
+		<property name="position">
+			<value>0</value>
 		</property>
 		<property name="value">
 			<value>0</value>

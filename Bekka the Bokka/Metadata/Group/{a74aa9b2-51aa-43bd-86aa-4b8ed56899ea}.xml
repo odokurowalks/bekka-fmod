@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{a74aa9b2-51aa-43bd-86aa-4b8ed56899ea}">
 		<property name="volume">
-			<value>-5.5</value>
+			<value>-5</value>
 		</property>
 		<property name="name">
 			<value>amb</value>
@@ -20,6 +20,7 @@
 	<object class="MixerBusEffectChain" id="{b5145e04-26ac-4e38-b88e-905a94947099}">
 		<relationship name="effects">
 			<destination>{d84e3575-9fd4-4df1-b429-c5b08e7e2b8f}</destination>
+			<destination>{96b09880-b7ef-4fb1-a1bf-c9be3321dbea}</destination>
 			<destination>{a75fce28-4b36-438f-b9c3-9d7aaf76ab8c}</destination>
 			<destination>{9926772c-845b-4c6a-beba-51be779d51ef}</destination>
 		</relationship>
@@ -34,6 +35,23 @@
 		</property>
 		<relationship name="mixerReturn">
 			<destination>{b7375447-055e-45ed-8918-ab132d52390f}</destination>
+		</relationship>
+	</object>
+	<object class="CompressorEffect" id="{96b09880-b7ef-4fb1-a1bf-c9be3321dbea}">
+		<property name="threshold">
+			<value>-30</value>
+		</property>
+		<property name="attackTime">
+			<value>56</value>
+		</property>
+		<property name="releaseTime">
+			<value>600</value>
+		</property>
+		<property name="gain">
+			<value>-5</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{f22bf842-3a9c-489b-a951-e2697a50cce1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{a75fce28-4b36-438f-b9c3-9d7aaf76ab8c}" />

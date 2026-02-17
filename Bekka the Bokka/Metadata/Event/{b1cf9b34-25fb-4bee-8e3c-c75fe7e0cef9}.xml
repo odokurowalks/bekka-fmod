@@ -96,6 +96,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{9d50d1d4-a567-465d-b91b-4f82fed4769e}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{d995d5d0-2408-45f7-a31f-8c27e8163329}</destination>
 		</relationship>
@@ -152,6 +155,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{1f67d082-57a7-4a0b-8995-be5c4d2a79d9}">
+		<property name="volume">
+			<value>-3.5</value>
+		</property>
 		<property name="name">
 			<value>radio drops</value>
 		</property>
