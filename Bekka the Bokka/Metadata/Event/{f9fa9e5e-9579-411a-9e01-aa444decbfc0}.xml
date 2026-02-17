@@ -158,9 +158,6 @@
 		<property name="minimumScatterDistance">
 			<value>7</value>
 		</property>
-		<property name="maximumScatterDistance">
-			<value>40</value>
-		</property>
 		<property name="volumeRandomization">
 			<value>-3</value>
 		</property>
@@ -202,10 +199,10 @@
 			<value>80</value>
 		</property>
 		<property name="minimumScatterDistance">
-			<value>5</value>
+			<value>7</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>30</value>
+			<value>50</value>
 		</property>
 		<property name="volumeRandomization">
 			<value>-7</value>
