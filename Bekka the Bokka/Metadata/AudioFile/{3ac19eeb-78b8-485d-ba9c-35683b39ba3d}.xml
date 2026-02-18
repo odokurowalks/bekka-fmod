@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{3ac19eeb-78b8-485d-ba9c-35683b39ba3d}">
+		<property name="assetPath">
+			<value>SFX/World/Hazards/Boulders/ROCKImpt_Hit 03_GW_FCR.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.28444444444444444</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7bd2dab8-5670-4f1e-bfc1-7c0b3fdb44b5}</destination>
+		</relationship>
+	</object>
+</objects>
