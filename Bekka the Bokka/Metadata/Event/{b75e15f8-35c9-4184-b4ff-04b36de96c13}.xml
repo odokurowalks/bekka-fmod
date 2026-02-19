@@ -126,6 +126,9 @@
 		<relationship name="automators">
 			<destination>{e9c55a9d-3f3b-4d1a-802d-bb023c08ab6d}</destination>
 		</relationship>
+		<relationship name="modulators">
+			<destination>{de240278-63c6-405c-8525-20dd40c8b7fa}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{e3427850-98a0-4503-ba55-9df65eb2811f}</destination>
 		</relationship>
@@ -210,6 +213,14 @@
 		<relationship name="automationCurves">
 			<destination>{a6b2d4cb-718c-40a5-9237-ea7331eaaacd}</destination>
 		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{de240278-63c6-405c-8525-20dd40c8b7fa}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>1.5</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{e3427850-98a0-4503-ba55-9df65eb2811f}">
 		<relationship name="effects">
