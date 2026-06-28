@@ -199,7 +199,7 @@
 			<value>80</value>
 		</property>
 		<property name="minimumScatterDistance">
-			<value>7</value>
+			<value>8</value>
 		</property>
 		<property name="maximumScatterDistance">
 			<value>50</value>

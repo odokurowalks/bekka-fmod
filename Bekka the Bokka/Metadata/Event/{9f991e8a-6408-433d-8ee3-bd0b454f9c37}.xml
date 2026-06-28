@@ -142,7 +142,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{5f5dbf9e-9531-484b-99c9-d90d2171d5ab}">
 		<property name="volume">
-			<value>-3</value>
+			<value>-8</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{71894b95-685e-4a95-b8e1-adf8d294396a}</destination>
@@ -176,7 +176,7 @@
 			<value>Red Light 1</value>
 		</property>
 		<property name="volume">
-			<value>-3</value>
+			<value>-5</value>
 		</property>
 		<property name="name">
 			<value>Clothing</value>
@@ -207,7 +207,7 @@
 			<value>Red</value>
 		</property>
 		<property name="volume">
-			<value>-8</value>
+			<value>-9</value>
 		</property>
 		<property name="name">
 			<value>Backpack</value>
