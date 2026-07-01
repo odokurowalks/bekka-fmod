@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{5ed91ce0-2de0-4122-ab1e-5b451718f1d6}">
 		<property name="assetPath">
-			<value>Machines, Industrial, Rotating Mechanism, Unstable, Vintage, Rattle, Metallic, Thin, Loop Sequence 02 SND117018.wav</value>
+			<value>SFX/World/Machines, Industrial, Rotating Mechanism, Unstable, Vintage, Rattle, Metallic, Thin, Loop Sequence 02 SND117018.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

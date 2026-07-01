@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{6df5216c-a24d-4e89-b69f-8a815478ab53}">
+	<object class="AudioFile" id="{b068989a-758f-494a-8b7a-5b1bf06445f8}">
 		<property name="assetPath">
-			<value>Paper, Flutter, Photograph, Wobble 02 SND20246.wav</value>
+			<value>ObjectCollision/Skateboard/SPRTSkate-Skateboard_Roll 02_GW_FCR.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.1198333333333332</value>
+			<value>9</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{7bd2dab8-5670-4f1e-bfc1-7c0b3fdb44b5}</destination>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{613bbe5e-4d28-49ad-9651-5d793d38fa4d}">
 		<property name="assetPath">
-			<value>SFX/World/Chimes/Chime_003.wav</value>
+			<value>SFX/World/Gold Chimes/Chime_003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{7e1851ab-e2be-45ee-ae29-3e3138cbe70c}">
 		<property name="assetPath">
-			<value>Objects, Bag, Leather Bag, Opening 01 SND142495 - Pitch 112_2 1 - Trimmed.wav</value>
+			<value>SFX/Inventory/Objects, Bag, Leather Bag, Opening 01 SND142495 - Pitch 112_2 1 - Trimmed.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

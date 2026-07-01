@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{fe3bea4b-95db-4731-a5e0-23a729293104}">
+	<object class="AudioFile" id="{ff066cc1-74bd-440d-b95f-30848b2034a7}">
 		<property name="assetPath">
-			<value>SFX/World/Marimba/MarimbaGlass/GlassMrmb_6.wav</value>
+			<value>ObjectCollision/Skateboard/SPRTSkate-Skateboard_Drop_GW_FCR-002.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.8756916099773242</value>
+			<value>0.42190476190476189</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{7bd2dab8-5670-4f1e-bfc1-7c0b3fdb44b5}</destination>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{44bd329c-4026-417f-93b2-1ec9d3e1c64d}">
 		<property name="assetPath">
-			<value>Mrmb_8.wav</value>
+			<value>SFX/World/Marimba/Mrmb_8.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

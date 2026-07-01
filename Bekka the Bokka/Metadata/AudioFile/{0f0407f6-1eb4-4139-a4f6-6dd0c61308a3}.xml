@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{0f0407f6-1eb4-4139-a4f6-6dd0c61308a3}">
 		<property name="assetPath">
-			<value>Swooshes, Whoosh, Organic, Wind, Soft, Normal, Debris SND55381 1.wav</value>
+			<value>UIInteractSFX/Whooshes/Swooshes, Whoosh, Organic, Wind, Soft, Normal, Debris SND55381 1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>
