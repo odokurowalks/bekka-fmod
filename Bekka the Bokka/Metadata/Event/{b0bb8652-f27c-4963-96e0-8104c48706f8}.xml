@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b0bb8652-f27c-4963-96e0-8104c48706f8}">
 		<property name="name">
-			<value>skateboard_place</value>
+			<value>place</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{394d8692-0651-4417-b00d-ee2e5eec780c}</destination>
+			<destination>{71e3bc79-54b8-49d3-8aa7-d69b38b8af97}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{45e4c943-0ca8-4e53-8246-837a63c02f9d}</destination>

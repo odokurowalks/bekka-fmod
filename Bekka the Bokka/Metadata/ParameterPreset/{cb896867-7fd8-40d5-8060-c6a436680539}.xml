@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{cb896867-7fd8-40d5-8060-c6a436680539}">
+		<property name="name">
+			<value>skateboardVelocity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{087ef8f1-ea48-4422-a42e-697a37ca2d15}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{5d13bfe0-82eb-4800-90e0-86d835339ff3}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{5d13bfe0-82eb-4800-90e0-86d835339ff3}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
