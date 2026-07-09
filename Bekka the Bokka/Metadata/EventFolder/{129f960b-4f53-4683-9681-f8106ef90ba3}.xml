@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{129f960b-4f53-4683-9681-f8106ef90ba3}">
+		<property name="name">
+			<value>puffball</value>
+		</property>
+		<relationship name="folder">
+			<destination>{394d8692-0651-4417-b00d-ee2e5eec780c}</destination>
+		</relationship>
+	</object>
+</objects>
