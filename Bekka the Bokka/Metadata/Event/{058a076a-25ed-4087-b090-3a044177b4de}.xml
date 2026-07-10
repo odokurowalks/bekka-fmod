@@ -5,7 +5,7 @@
 			<value>fire</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{364f81c7-8c1d-48e0-812e-37088b5e7d74}</destination>
@@ -313,6 +313,7 @@
 	<object class="MixerBusEffectChain" id="{26a15e43-6391-403b-933b-f4f61e3e1efd}">
 		<relationship name="effects">
 			<destination>{312db929-ce42-4c3d-a10c-3d8fe75d3f20}</destination>
+			<destination>{3f56600f-d1dd-4de5-8dd4-659337621fff}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{caa930c9-f0f8-41d3-b985-99d13f09404d}" />
@@ -413,6 +414,17 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{312db929-ce42-4c3d-a10c-3d8fe75d3f20}" />
+	<object class="SpatialiserEffect" id="{3f56600f-d1dd-4de5-8dd4-659337621fff}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>8.5</value>
+		</property>
+		<property name="minimumExtent">
+			<value>90</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{829e7dbf-6d26-4c39-bcfb-941de6565b6d}" />
 	<object class="AutomationPoint" id="{f57453ab-53d2-421f-8c0d-2e732c4bc5ab}">
 		<property name="position">

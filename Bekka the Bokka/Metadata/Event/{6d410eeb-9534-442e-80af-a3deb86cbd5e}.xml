@@ -121,8 +121,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{72e6c411-34c5-48ce-a717-bba9c76bafe6}">
 		<relationship name="effects">
-			<destination>{e907ecb8-0f9c-477f-82f4-2e3a33b59521}</destination>
 			<destination>{a8f2893d-1d17-484a-84b2-b640e63c7db4}</destination>
+			<destination>{e907ecb8-0f9c-477f-82f4-2e3a33b59521}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{523fba5e-babd-4915-b706-b4fe8a4102c3}" />
@@ -162,6 +162,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3818bfc3-7dc4-4d81-9c48-d4445b4a7bc5}" />
+	<object class="MixerBusFader" id="{a8f2893d-1d17-484a-84b2-b640e63c7db4}" />
 	<object class="SpatialiserEffect" id="{e907ecb8-0f9c-477f-82f4-2e3a33b59521}">
 		<property name="maximumDistance">
 			<value>10</value>
@@ -179,7 +180,6 @@
 			<value>80</value>
 		</property>
 	</object>
-	<object class="MixerBusFader" id="{a8f2893d-1d17-484a-84b2-b640e63c7db4}" />
 	<object class="SFXReverbEffect" id="{d70b5604-9f35-4da0-9751-040fc4a73f1d}">
 		<property name="wetLevel">
 			<value>-32</value>

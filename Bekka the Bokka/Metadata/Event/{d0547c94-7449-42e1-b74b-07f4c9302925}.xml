@@ -5,7 +5,7 @@
 			<value>extend</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8c665590-2123-4219-acc2-4996f4ce5788}</destination>
@@ -129,6 +129,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{1fbb2ffe-4417-49a6-b08d-c560445fb40b}">
+		<property name="volume">
+			<value>-6.5</value>
+		</property>
 		<property name="name">
 			<value>click</value>
 		</property>
@@ -151,6 +154,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{eab5638f-8b6b-401a-a490-64f8370af409}">
+		<property name="volume">
+			<value>-15.5</value>
+		</property>
 		<property name="name">
 			<value>ladder</value>
 		</property>
@@ -173,6 +179,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d95f2674-30f9-46a6-8f3a-316ef2a2bbea}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<property name="name">
 			<value>siren</value>
 		</property>
@@ -197,6 +206,7 @@
 	<object class="MixerBusEffectChain" id="{d256167c-4fbd-4dca-aac3-46ab394c9586}">
 		<relationship name="effects">
 			<destination>{ab515397-dada-419d-81ac-b85859d7b720}</destination>
+			<destination>{20fff442-ad7d-4a62-8607-1326b150f08d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5f32cae1-96b8-47f5-a54b-7ef023ee10d3}" />
@@ -239,6 +249,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{ab515397-dada-419d-81ac-b85859d7b720}" />
+	<object class="SpatialiserEffect" id="{20fff442-ad7d-4a62-8607-1326b150f08d}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>4.80000019</value>
+		</property>
+		<property name="minimumExtent">
+			<value>90</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{37bb9813-aef0-4650-bde6-245c7ea29011}" />
 	<object class="MixerBusFader" id="{8a2571fc-6117-43cd-88c5-e1b9fdb4fb8a}" />
 	<object class="MixerBusFader" id="{4285e4d7-bb9b-4670-9201-19fa46937129}" />

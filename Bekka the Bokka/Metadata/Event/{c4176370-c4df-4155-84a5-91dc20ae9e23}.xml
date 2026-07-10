@@ -5,7 +5,7 @@
 			<value>explosion</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{129f960b-4f53-4683-9681-f8106ef90ba3}</destination>
@@ -112,6 +112,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{46ad860d-03ad-4cae-89e3-46f8adc147c4}">
+		<property name="volume">
+			<value>-7.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{1ead3a97-5bab-46f7-8708-13b020aadd16}</destination>
 		</relationship>
@@ -256,6 +259,7 @@
 	<object class="MixerBusEffectChain" id="{1ead3a97-5bab-46f7-8708-13b020aadd16}">
 		<relationship name="effects">
 			<destination>{12cb7b6d-912c-4415-888a-43e498522af0}</destination>
+			<destination>{23a40ff4-8e10-43dd-b3d7-fb58a67c3dac}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d0c3d806-b989-4ec7-9f24-1bcee05de10b}" />
@@ -371,6 +375,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{d0c4e9fc-de3c-4d1c-adaf-bd7cf4085494}" />
 	<object class="MixerBusFader" id="{12cb7b6d-912c-4415-888a-43e498522af0}" />
+	<object class="SpatialiserEffect" id="{23a40ff4-8e10-43dd-b3d7-fb58a67c3dac}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>52</value>
+		</property>
+		<property name="minimumExtent">
+			<value>90</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{9e6de43b-3d63-41cc-90b6-e0d292bf5002}" />
 	<object class="MixerBusFader" id="{d7e324e7-442d-4d4d-9b5e-f1afb2993319}" />
 	<object class="MixerBusFader" id="{0730a045-6f0c-4790-9378-ef3b93d157d5}" />
