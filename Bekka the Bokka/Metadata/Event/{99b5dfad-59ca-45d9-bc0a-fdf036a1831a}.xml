@@ -5,7 +5,7 @@
 			<value>bekka_sets_off</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>5</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d7e8a405-4e49-41d0-890e-7308de3750fb}</destination>

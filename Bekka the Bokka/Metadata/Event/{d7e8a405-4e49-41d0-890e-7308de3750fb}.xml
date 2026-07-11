@@ -5,7 +5,7 @@
 			<value>opening_cutscene_fix</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>5</value>
 		</property>
 		<relationship name="folder">
 			<destination>{351feec8-394f-4634-8a51-db7b12045262}</destination>

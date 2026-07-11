@@ -5,7 +5,7 @@
 			<value>fallOffMap</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c9fba96e-720f-408a-a701-3eda1914327f}</destination>
@@ -168,6 +168,7 @@
 	<object class="MixerBusEffectChain" id="{e7d1589c-735e-47b0-980a-56d2359f4415}">
 		<relationship name="effects">
 			<destination>{7df51a2c-9bbf-4b77-a048-6c191d70c76f}</destination>
+			<destination>{ff24b30c-e1bd-4a5e-893e-fca2d85d0918}</destination>
 			<destination>{f3402129-82f6-431a-b008-2870517be295}</destination>
 		</relationship>
 	</object>
@@ -243,6 +244,7 @@
 			<value>-22.5</value>
 		</property>
 	</object>
+	<object class="SpatialiserEffect" id="{ff24b30c-e1bd-4a5e-893e-fca2d85d0918}" />
 	<object class="MixerBusFader" id="{f3402129-82f6-431a-b008-2870517be295}" />
 	<object class="MixerBusFader" id="{5599bf14-2f38-42d8-926a-a129dc302a14}" />
 	<object class="AutomationPoint" id="{9a562c42-dadb-4ad8-aea7-2623ee5c8afb}">

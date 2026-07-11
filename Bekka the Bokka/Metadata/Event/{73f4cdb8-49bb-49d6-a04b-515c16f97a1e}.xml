@@ -5,7 +5,7 @@
 			<value>open</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>5</value>
 		</property>
 		<relationship name="folder">
 			<destination>{527c5b1b-e2d5-4518-9dbb-177c5c0391a2}</destination>

@@ -5,7 +5,7 @@
 			<value>clothing</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c9fba96e-720f-408a-a701-3eda1914327f}</destination>
@@ -141,6 +141,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{95d7927d-6b6e-45a2-a099-683f9266adb8}">
 		<relationship name="effects">
+			<destination>{95a3de84-3808-4f66-9cb5-bf1e76628d5c}</destination>
 			<destination>{9b020621-ed8b-4020-a23e-75db5828311e}</destination>
 		</relationship>
 	</object>
@@ -211,6 +212,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1d80eb79-34d4-44a7-9957-6261a5e9e7c1}" />
+	<object class="SpatialiserEffect" id="{95a3de84-3808-4f66-9cb5-bf1e76628d5c}" />
 	<object class="MixerBusFader" id="{9b020621-ed8b-4020-a23e-75db5828311e}" />
 	<object class="AutomationCurve" id="{58867495-6b5b-4225-9216-eefbd25c5f19}">
 		<relationship name="parameter">

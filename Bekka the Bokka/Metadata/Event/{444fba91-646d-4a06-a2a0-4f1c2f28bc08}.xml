@@ -5,7 +5,7 @@
 			<value>climb</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c9fba96e-720f-408a-a701-3eda1914327f}</destination>
@@ -106,6 +106,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{548a7a09-72ee-4fd8-9f9d-14c74a355c59}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<property name="name">
 			<value>Climb</value>
 		</property>
@@ -121,6 +124,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{63330c56-c139-44a8-af0d-6fb36fa7b67d}">
 		<relationship name="effects">
+			<destination>{e5be47aa-1210-4a4d-ac93-43d02279b388}</destination>
 			<destination>{5fe88cc3-9227-42b4-81c5-7fbf05b47497}</destination>
 		</relationship>
 	</object>
@@ -161,6 +165,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bdac5a02-4cf9-4f3b-a1dc-44284dc81dc3}" />
+	<object class="SpatialiserEffect" id="{e5be47aa-1210-4a4d-ac93-43d02279b388}" />
 	<object class="MixerBusFader" id="{5fe88cc3-9227-42b4-81c5-7fbf05b47497}" />
 	<object class="ThreeEQEffect" id="{583d5cc0-858f-4074-b767-78051d62a760}">
 		<property name="lowGain">

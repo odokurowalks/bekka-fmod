@@ -5,7 +5,7 @@
 			<value>collision_metal</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c9f99dd2-fe62-4d60-aa86-a868e7aebd9b}</destination>
@@ -193,6 +193,7 @@
 	<object class="MixerBusEffectChain" id="{1e611e59-3054-4a06-9a0d-2d51c7b39b95}">
 		<relationship name="effects">
 			<destination>{d9e48090-f3bc-411e-a835-824784947bb9}</destination>
+			<destination>{5f00d822-973a-418b-8bb9-61014f2250cd}</destination>
 			<destination>{760458a7-82b5-470e-9a7e-83a056afb4ee}</destination>
 		</relationship>
 	</object>
@@ -305,6 +306,7 @@
 			<destination>{004149d2-c44e-41d8-9cf3-408c2e63e706}</destination>
 		</relationship>
 	</object>
+	<object class="SpatialiserEffect" id="{5f00d822-973a-418b-8bb9-61014f2250cd}" />
 	<object class="MixerBusFader" id="{760458a7-82b5-470e-9a7e-83a056afb4ee}" />
 	<object class="SFXReverbEffect" id="{d86e9c01-1a27-418f-9530-44010c1abecb}">
 		<property name="decayTime">

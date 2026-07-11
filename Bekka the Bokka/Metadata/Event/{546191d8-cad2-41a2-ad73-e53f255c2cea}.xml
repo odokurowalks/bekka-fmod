@@ -160,8 +160,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{9113f137-eaad-46ec-826f-7195e160f42e}">
 		<relationship name="effects">
-			<destination>{8dee4bbf-15ac-4244-9158-adbbdf2b403d}</destination>
 			<destination>{bf9461ac-7dfd-474d-bff1-4f27a1ec3b01}</destination>
+			<destination>{8dee4bbf-15ac-4244-9158-adbbdf2b403d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fc605ece-0383-44f3-816f-c25a06a5b6da}" />
@@ -197,7 +197,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4091ff0a-1354-4897-abe4-5a83681a4fce}" />
-	<object class="MixerBusFader" id="{8dee4bbf-15ac-4244-9158-adbbdf2b403d}" />
 	<object class="SpatialiserEffect" id="{bf9461ac-7dfd-474d-bff1-4f27a1ec3b01}">
 		<property name="maximumDistance">
 			<value>30</value>
@@ -206,6 +205,7 @@
 			<value>true</value>
 		</property>
 	</object>
+	<object class="MixerBusFader" id="{8dee4bbf-15ac-4244-9158-adbbdf2b403d}" />
 	<object class="LowpassSimpleEffect" id="{3b6bea26-9f6a-4a77-ad99-5639fa29ded9}">
 		<property name="cutoff">
 			<value>22000</value>

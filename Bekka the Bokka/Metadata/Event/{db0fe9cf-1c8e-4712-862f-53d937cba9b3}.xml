@@ -5,7 +5,7 @@
 			<value>backpack</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c9fba96e-720f-408a-a701-3eda1914327f}</destination>
@@ -198,6 +198,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{660ce0d5-87b7-42ba-b879-bebbc21d8dd1}">
 		<relationship name="effects">
+			<destination>{7eb589fc-6723-420f-ad6f-18240f3c7cd2}</destination>
 			<destination>{a869d860-a37d-4df9-bdff-64621cae8806}</destination>
 		</relationship>
 	</object>
@@ -313,6 +314,7 @@
 			<destination>{41959d4f-6ee7-40ed-a56b-40408f5e2454}</destination>
 		</relationship>
 	</object>
+	<object class="SpatialiserEffect" id="{7eb589fc-6723-420f-ad6f-18240f3c7cd2}" />
 	<object class="MixerBusFader" id="{a869d860-a37d-4df9-bdff-64621cae8806}" />
 	<object class="MixerBusFader" id="{27d89d46-d2a3-4582-9d67-af9fe86fc23a}" />
 	<object class="MixerBusFader" id="{2d83f956-5c9a-4566-9539-782999ee9e7a}" />

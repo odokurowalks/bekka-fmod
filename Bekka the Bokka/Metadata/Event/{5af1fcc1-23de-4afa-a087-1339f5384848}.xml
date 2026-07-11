@@ -169,8 +169,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{e452b9b3-e0ab-4a2a-bdcf-add5d232f003}">
 		<relationship name="effects">
-			<destination>{40b0c485-d592-48e8-87d9-dacec1f0c8a3}</destination>
 			<destination>{f8195338-d0b6-4d39-885f-3aa52089e676}</destination>
+			<destination>{40b0c485-d592-48e8-87d9-dacec1f0c8a3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2e4c4502-ef7f-4a15-96c1-5bbba70d0574}" />
@@ -302,7 +302,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1bc12ff9-f185-4f17-b452-3015ecf2bf9e}" />
-	<object class="MixerBusFader" id="{40b0c485-d592-48e8-87d9-dacec1f0c8a3}" />
 	<object class="SpatialiserEffect" id="{f8195338-d0b6-4d39-885f-3aa52089e676}">
 		<property name="extentMode">
 			<value>1</value>
@@ -311,6 +310,7 @@
 			<value>90</value>
 		</property>
 	</object>
+	<object class="MixerBusFader" id="{40b0c485-d592-48e8-87d9-dacec1f0c8a3}" />
 	<object class="RandomizerModulator" id="{2b46a959-6be8-4eaa-a95f-3055e9f63a88}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>startOffset</value>

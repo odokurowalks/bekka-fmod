@@ -5,7 +5,7 @@
 			<value>collision_rock</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c9f99dd2-fe62-4d60-aa86-a868e7aebd9b}</destination>
@@ -198,6 +198,7 @@
 	<object class="MixerBusEffectChain" id="{91e6d7e3-6315-40f6-aff5-05486eec26a8}">
 		<relationship name="effects">
 			<destination>{0b3281bd-9c58-4655-8ad6-ee69df1ee82e}</destination>
+			<destination>{9b667e43-0edf-4d6d-89ab-531bdc47947b}</destination>
 			<destination>{72d06182-676b-4653-af9d-92212bb6fc5f}</destination>
 		</relationship>
 	</object>
@@ -327,6 +328,7 @@
 			<destination>{27566382-193f-42d2-b97b-b5d2f9993765}</destination>
 		</relationship>
 	</object>
+	<object class="SpatialiserEffect" id="{9b667e43-0edf-4d6d-89ab-531bdc47947b}" />
 	<object class="MixerBusFader" id="{72d06182-676b-4653-af9d-92212bb6fc5f}" />
 	<object class="AutomationPoint" id="{b4887d8d-c605-446e-8d37-8a210f1fc118}">
 		<property name="position">

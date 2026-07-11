@@ -128,10 +128,10 @@
 	<object class="MixerBusEffectChain" id="{2e54c39b-5a04-4734-b0c3-ebd1cf35c285}">
 		<relationship name="effects">
 			<destination>{aaba4fca-116e-43e6-a33c-2a1578dc79c3}</destination>
-			<destination>{7c29f0ad-955e-48e3-ac2d-7d68bb67eb0c}</destination>
 			<destination>{7d98ad8b-036c-4675-ae83-443cc85ad503}</destination>
 			<destination>{7d136035-65db-4f08-b7a8-45688459d6ef}</destination>
 			<destination>{9dccbf2c-2416-4ec6-a92b-34e638dfca3c}</destination>
+			<destination>{7c29f0ad-955e-48e3-ac2d-7d68bb67eb0c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4b2b05a3-6863-4283-a779-1477ea405d8f}" />
@@ -157,7 +157,6 @@
 			<value>5000</value>
 		</property>
 	</object>
-	<object class="MixerBusFader" id="{7c29f0ad-955e-48e3-ac2d-7d68bb67eb0c}" />
 	<object class="DelayEffect" id="{7d98ad8b-036c-4675-ae83-443cc85ad503}">
 		<property name="delay">
 			<value>420</value>
@@ -178,6 +177,7 @@
 		</property>
 	</object>
 	<object class="SpatialiserEffect" id="{9dccbf2c-2416-4ec6-a92b-34e638dfca3c}" />
+	<object class="MixerBusFader" id="{7c29f0ad-955e-48e3-ac2d-7d68bb67eb0c}" />
 	<object class="SingleSound" id="{b4daaf70-b6f3-4683-97ee-75a2d56126ac}">
 		<relationship name="audioFile">
 			<destination>{928f2509-64bc-4c0b-9c5f-b85a723ad6f8}</destination>
