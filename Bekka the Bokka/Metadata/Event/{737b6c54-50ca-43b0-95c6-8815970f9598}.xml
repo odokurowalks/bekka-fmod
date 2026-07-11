@@ -70,6 +70,9 @@
 		<relationship name="modules">
 			<destination>{b5973421-33dd-4767-b3b1-284436078a60}</destination>
 		</relationship>
+		<relationship name="markers">
+			<destination>{20177f49-ae7b-488e-824e-2a80ac2441cc}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{8c3cc4f5-bdd6-4ea0-a7a2-22322f35bc51}">
 		<relationship name="effectChain">
@@ -89,14 +92,24 @@
 	</object>
 	<object class="MixerBusPanner" id="{b546c810-5a54-4bef-953e-f18199ab7c5e}" />
 	<object class="MultiSound" id="{b5973421-33dd-4767-b3b1-284436078a60}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>25</value>
+		</property>
 		<property name="isCutoff">
 			<value>true</value>
 		</property>
 		<property name="length">
 			<value>0.30863945578231294</value>
 		</property>
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{e37f3280-75af-48e3-a889-76d9df768cf8}</destination>
+			<destination>{0e3cd023-73e9-4019-b92d-10d3e8e595d9}</destination>
 		</relationship>
 		<relationship name="sounds">
 			<destination>{f46a3662-0804-49af-a9ae-4976122d7990}</destination>
@@ -123,6 +136,20 @@
 			<destination>{8c3cc4f5-bdd6-4ea0-a7a2-22322f35bc51}</destination>
 		</relationship>
 	</object>
+	<object class="LoopRegion" id="{20177f49-ae7b-488e-824e-2a80ac2441cc}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>0.30863945578231294</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{a9600a64-059b-4721-8816-f0e874ca9be3}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{935b44c0-286f-40a0-8532-4b51916c01d5}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{859a975e-dfc3-487b-b703-5516c3df7636}">
 		<relationship name="effects">
 			<destination>{9cfff137-5695-4ce3-865f-e9642701f42b}</destination>
@@ -137,6 +164,14 @@
 		</property>
 		<property name="amount">
 			<value>4.16666698</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{0e3cd023-73e9-4019-b92d-10d3e8e595d9}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>2</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{f46a3662-0804-49af-a9ae-4976122d7990}">
