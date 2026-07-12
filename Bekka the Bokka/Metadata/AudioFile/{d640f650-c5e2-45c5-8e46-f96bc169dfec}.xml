@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{d640f650-c5e2-45c5-8e46-f96bc169dfec}">
 		<property name="assetPath">
-			<value>ObjectCollision/Gastropod/ANMLRept_Slither_GW_FCR-002.wav</value>
+			<value>Blocks/Gastropod/ANMLRept_Slither_GW_FCR-002.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

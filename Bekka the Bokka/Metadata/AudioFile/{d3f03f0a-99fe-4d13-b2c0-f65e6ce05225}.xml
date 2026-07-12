@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{d3f03f0a-99fe-4d13-b2c0-f65e6ce05225}">
 		<property name="assetPath">
-			<value>ObjectCollision/Gastropod/FOLYMisc-Shell_Slap_GW_FCR-002.wav</value>
+			<value>Blocks/Gastropod/FOLYMisc-Shell_Slap_GW_FCR-002.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

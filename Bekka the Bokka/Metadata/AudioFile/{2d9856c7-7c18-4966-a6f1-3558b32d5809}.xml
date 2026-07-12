@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{2d9856c7-7c18-4966-a6f1-3558b32d5809}">
 		<property name="assetPath">
-			<value>ObjectCollision/Magic Bean/VEGEMisc-Beanstalk_Grow_Loop_GW_FCR.wav</value>
+			<value>Blocks/Magic Bean/VEGEMisc-Beanstalk_Grow_Loop_GW_FCR.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

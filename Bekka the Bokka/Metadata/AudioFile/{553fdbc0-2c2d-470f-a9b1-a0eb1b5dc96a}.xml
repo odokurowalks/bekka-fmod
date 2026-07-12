@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{553fdbc0-2c2d-470f-a9b1-a0eb1b5dc96a}">
 		<property name="assetPath">
-			<value>ObjectCollision/Mushroom/GORESrce_Mushroom 04_GW_BTB.wav</value>
+			<value>Blocks/Mushroom/GORESrce_Mushroom 04_GW_BTB.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

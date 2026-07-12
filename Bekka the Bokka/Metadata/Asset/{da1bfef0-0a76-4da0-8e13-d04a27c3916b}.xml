@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="EncodableAsset" id="{7761bc28-ef38-4834-bd8c-14fa95995036}">
+	<object class="EncodableAsset" id="{da1bfef0-0a76-4da0-8e13-d04a27c3916b}">
 		<property name="assetPath">
-			<value>ObjectCollision/Skateboard/</value>
+			<value>UIInteractSFX/Stamps/Unique/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{7bd2dab8-5670-4f1e-bfc1-7c0b3fdb44b5}</destination>

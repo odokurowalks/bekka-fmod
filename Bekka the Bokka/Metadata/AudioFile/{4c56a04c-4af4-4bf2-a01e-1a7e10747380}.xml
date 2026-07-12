@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{4c56a04c-4af4-4bf2-a01e-1a7e10747380}">
 		<property name="assetPath">
-			<value>ObjectCollision/Puffball Mushroom/EXPLMisc_Frying_GW_FCR-004.wav</value>
+			<value>Blocks/Puffball Mushroom/EXPLMisc_Frying_GW_FCR-004.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{66adc3a1-f831-4226-8d7e-f1a10e060267}">
 		<property name="assetPath">
-			<value>ObjectCollision/Ladder/METLFric-Ladder_Extend 01_GW_FCR.wav</value>
+			<value>Blocks/Ladder/METLFric-Ladder_Extend 01_GW_FCR.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

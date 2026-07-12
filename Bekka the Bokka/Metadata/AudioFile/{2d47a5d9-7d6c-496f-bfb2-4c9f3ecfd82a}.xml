@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{2d47a5d9-7d6c-496f-bfb2-4c9f3ecfd82a}">
 		<property name="assetPath">
-			<value>ObjectCollision/Skateboard/SPRTSkate-Skateboard_Land_GW_FCR-003.wav</value>
+			<value>Blocks/Skateboard/SPRTSkate-Skateboard_Land_GW_FCR-003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

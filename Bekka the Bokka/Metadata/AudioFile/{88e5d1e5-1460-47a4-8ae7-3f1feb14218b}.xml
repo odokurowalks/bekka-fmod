@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{88e5d1e5-1460-47a4-8ae7-3f1feb14218b}">
 		<property name="assetPath">
-			<value>ObjectCollision/Specimen/WOODImpt-Crate_Hit_GW_FCR-003.wav</value>
+			<value>Blocks/Specimen/WOODImpt-Crate_Hit_GW_FCR-003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

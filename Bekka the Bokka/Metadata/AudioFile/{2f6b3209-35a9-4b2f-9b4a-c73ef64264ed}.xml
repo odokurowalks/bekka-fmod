@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{2f6b3209-35a9-4b2f-9b4a-c73ef64264ed}">
 		<property name="assetPath">
-			<value>ObjectCollision/Kite/CLOTHFlp_Whoosh 04_GW_BTB.wav</value>
+			<value>Blocks/Kite/CLOTHFlp_Whoosh 04_GW_BTB.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

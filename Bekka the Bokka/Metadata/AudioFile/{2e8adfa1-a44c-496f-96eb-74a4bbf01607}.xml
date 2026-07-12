@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{2e8adfa1-a44c-496f-96eb-74a4bbf01607}">
 		<property name="assetPath">
-			<value>ObjectCollision/Specimen/ANMLMisc-Specimen_Yap 03_GW_FCR.wav</value>
+			<value>Blocks/Specimen/ANMLMisc-Specimen_Yap 03_GW_FCR.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

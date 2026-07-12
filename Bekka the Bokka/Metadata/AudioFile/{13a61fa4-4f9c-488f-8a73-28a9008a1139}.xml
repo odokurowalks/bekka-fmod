@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{13a61fa4-4f9c-488f-8a73-28a9008a1139}">
 		<property name="assetPath">
-			<value>ObjectCollision/Specimen/METLHndl-Chain_Rattle_GW_FCR-001.wav</value>
+			<value>Blocks/Specimen/METLHndl-Chain_Rattle_GW_FCR-001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

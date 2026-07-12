@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{52979e3b-0205-47cc-85ce-43926d16c7e6}">
 		<property name="assetPath">
-			<value>ObjectCollision/Kite/CLOTHFlp_Loop_GW_BTB.wav</value>
+			<value>Blocks/Kite/CLOTHFlp_Loop_GW_BTB.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

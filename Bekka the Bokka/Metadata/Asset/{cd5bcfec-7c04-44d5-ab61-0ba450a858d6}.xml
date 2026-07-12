@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="EncodableAsset" id="{77aea502-ca4e-4ad3-a6ca-d1f301bca449}">
+	<object class="EncodableAsset" id="{cd5bcfec-7c04-44d5-ab61-0ba450a858d6}">
 		<property name="assetPath">
-			<value>ObjectCollision/Anvil/</value>
+			<value>Blocks/O2 Canister/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{7bd2dab8-5670-4f1e-bfc1-7c0b3fdb44b5}</destination>

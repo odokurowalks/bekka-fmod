@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{edc01e8a-a551-41b4-8a8a-849d513174d1}">
 		<property name="assetPath">
-			<value>ObjectCollision/O2 Canister/TOYMech_Nerf Revolver Trigger Pull 08_AidanHallAudio_NerfPistols.wav</value>
+			<value>Blocks/O2 Canister/TOYMech_Nerf Revolver Trigger Pull 08_AidanHallAudio_NerfPistols.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

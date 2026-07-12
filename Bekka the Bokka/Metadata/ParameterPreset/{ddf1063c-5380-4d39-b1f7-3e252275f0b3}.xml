@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{ddf1063c-5380-4d39-b1f7-3e252275f0b3}">
+		<property name="name">
+			<value>StampName</value>
+		</property>
+		<relationship name="folder">
+			<destination>{fe5cd2bb-b25d-46d2-9d7b-12844e11c670}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f664acfd-fa1a-4bc5-bc3a-c354b7862d45}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f664acfd-fa1a-4bc5-bc3a-c354b7862d45}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>9</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>moose</value>
+			<value>rabbit</value>
+			<value>survivalist</value>
+			<value>firewatchtower</value>
+			<value>helpinghand</value>
+			<value>beaver</value>
+			<value>vulture</value>
+			<value>bridge</value>
+			<value>guano</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

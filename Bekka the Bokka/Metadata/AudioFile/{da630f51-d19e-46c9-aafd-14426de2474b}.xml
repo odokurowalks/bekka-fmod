@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{da630f51-d19e-46c9-aafd-14426de2474b}">
 		<property name="assetPath">
-			<value>ObjectCollision/Rocks/ROCKHndl_Lg 01_GW_BTB.wav</value>
+			<value>Blocks/Rocks/ROCKHndl_Lg 01_GW_BTB.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

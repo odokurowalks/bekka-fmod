@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{27f11de8-aae4-43ba-b32a-c4b1b37b2f7d}">
 		<property name="assetPath">
-			<value>ObjectCollision/Cloth2.aif</value>
+			<value>Blocks/Cloth2.aif</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

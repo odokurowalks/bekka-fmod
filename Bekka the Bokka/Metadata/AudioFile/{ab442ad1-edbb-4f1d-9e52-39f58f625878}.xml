@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{ab442ad1-edbb-4f1d-9e52-39f58f625878}">
 		<property name="assetPath">
-			<value>ObjectCollision/O2 Canister/METLHndl_Canister 03_GW_FCR.wav</value>
+			<value>Blocks/O2 Canister/METLHndl_Canister 03_GW_FCR.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

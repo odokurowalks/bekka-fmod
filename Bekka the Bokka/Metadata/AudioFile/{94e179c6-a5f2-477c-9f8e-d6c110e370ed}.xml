@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{94e179c6-a5f2-477c-9f8e-d6c110e370ed}">
 		<property name="assetPath">
-			<value>ObjectCollision/WOODFric_Creak 04_GW_BTB.wav</value>
+			<value>Blocks/WOODFric_Creak 04_GW_BTB.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

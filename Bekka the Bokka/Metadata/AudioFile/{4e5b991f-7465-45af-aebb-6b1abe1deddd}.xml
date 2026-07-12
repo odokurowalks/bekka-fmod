@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{4e5b991f-7465-45af-aebb-6b1abe1deddd}">
 		<property name="assetPath">
-			<value>ObjectCollision/Take Item/TOONPop_Bottle_GW_BTB-003.wav</value>
+			<value>Blocks/Take Item/TOONPop_Bottle_GW_BTB-003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{6dc0411a-82e1-4551-b561-0b86aa385860}">
 		<property name="assetPath">
-			<value>ObjectCollision/Anvil/METLImpt_Metal, Impact, Blacksmith, Metal Impact 02_Soundly_SND78836-004.wav</value>
+			<value>Blocks/Anvil/METLImpt_Metal, Impact, Blacksmith, Metal Impact 02_Soundly_SND78836-004.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
